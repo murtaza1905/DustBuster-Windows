@@ -1,0 +1,55 @@
+Test run for D:\a\DustBuster-Windows\DustBuster-Windows\tests\DustBuster.Core.Tests\bin\Release\net8.0\DustBuster.Core.Tests.dll (.NETCoreApp,Version=v8.0)
+A total of 1 test files matched the specified pattern.
+[xUnit.net 00:00:00.00] xUnit.net VSTest Adapter v2.8.2+699d445a1a (64-bit .NET 8.0.33)
+[xUnit.net 00:00:00.05]   Discovering: DustBuster.Core.Tests
+[xUnit.net 00:00:00.09]   Discovered:  DustBuster.Core.Tests
+[xUnit.net 00:00:00.09]   Starting:    DustBuster.Core.Tests
+  Passed DustBuster.Core.Tests.PathClassifierTests.AppDataIsAcceptedExceptProtectedWindowsAreas [4 ms]
+  Passed DustBuster.Core.Tests.PathUtilTests.NormalizeAndRoots [4 ms]
+  Passed DustBuster.Core.Tests.PathUtilTests.RelativeAndUnderAreCaseInsensitive [< 1 ms]
+  Passed DustBuster.Core.Tests.PathClassifierTests.UserDataIsNeverAccepted [3 ms]
+  Passed DustBuster.Core.Tests.PathClassifierTests.RegistryRules [< 1 ms]
+  Passed DustBuster.Core.Tests.PathClassifierTests.KindsFollowKnownFolders [1 ms]
+  Passed DustBuster.Core.Tests.PathClassifierTests.SystemLocationsRequireTheOption [< 1 ms]
+  Passed DustBuster.Core.Tests.SearchTermsTests.TokensSplitOnNonAlphanumerics [7 ms]
+  Passed DustBuster.Core.Tests.SearchTermsTests.MicrosoftFoldersNeverMatchForeignApps [6 ms]
+  Passed DustBuster.Core.Tests.SearchTermsTests.IdentifiersMatchExactlyOrWithDotUnderscoreSuffix [< 1 ms]
+  Passed DustBuster.Core.Tests.SearchTermsTests.CleanNameDropsVersionArchAndParentheses [< 1 ms]
+  Passed DustBuster.Core.Tests.SearchTermsTests.GenericAndShortNamesProduceNoTokenSets [< 1 ms]
+  Passed DustBuster.Core.Tests.SearchTermsTests.ExecutableNameIsAnExtraNameVariant [1 ms]
+  Passed DustBuster.Core.Tests.SearchTermsTests.PlainUninstallKeyNamesAreNotIdentifiers [< 1 ms]
+  Passed DustBuster.Core.Tests.SearchTermsTests.MultiWordNameGetsBothTokenSetAndSquashedVariant [< 1 ms]
+  Passed DustBuster.Core.Tests.SearchTermsTests.ChannelWordsSeparateApps [< 1 ms]
+  Passed DustBuster.Core.Tests.SearchTermsTests.PrefixRuleAppliesOnlyToLongNames [< 1 ms]
+  Passed DustBuster.Core.Tests.SearchTermsTests.WeakMatchOnlyLooksAtOwnName [< 1 ms]
+  Passed DustBuster.Core.Tests.SearchTermsTests.VendorTokensAndNameEqualsVendor [< 1 ms]
+  Passed DustBuster.Core.Tests.VirtualFileSystemTests.RegistryKeysBehaveLikeDirectoriesAndValuesLikeFiles [< 1 ms]
+  Passed DustBuster.Core.Tests.VirtualFileSystemTests.DirectoriesFilesAndCanonicalCase [1 ms]
+  Passed DustBuster.Core.Tests.KnownFoldersTests.ExpandAndContractRoundTrip [4 ms]
+  Passed DustBuster.Core.Tests.GlobTests.ExpandWalksVirtualFileSystem [7 ms]
+  Passed DustBuster.Core.Tests.GlobTests.WildcardMatching [< 1 ms]
+  Passed DustBuster.Core.Tests.CommandLineTests.ExtractsExecutableFromCommands [< 1 ms]
+  Passed DustBuster.Core.Tests.CleanupPolicyTests.AppCachesAreFoundButBrowsersAndUserDataAreNot [62 ms]
+  Passed DustBuster.Core.Tests.CleanupPolicyTests.RootCandidatesFollowModes [3 ms]
+  Passed DustBuster.Core.Tests.CleanupPolicyTests.VerdictBlocksSensitiveAndForbiddenPaths [3 ms]
+  Passed DustBuster.Core.Tests.CleanupPolicyTests.DetectsChromiumBrowsersIncludingSplitProfileRoots [2 ms]
+  Passed DustBuster.Core.Tests.FixtureTests.FixturePasses(fileName: "discord.json") [91 ms]
+  Passed DustBuster.Core.Tests.FixtureTests.FixturePasses(fileName: "notion.json") [3 ms]
+  Passed DustBuster.Core.Tests.FixtureTests.FixturePasses(fileName: "whatsapp-msix.json") [1 ms]
+  Passed DustBuster.Core.Tests.FixtureTests.FixturePasses(fileName: "google-chrome.json") [3 ms]
+  Passed DustBuster.Core.Tests.FixtureTests.FixturePasses(fileName: "vlc.json") [1 ms]
+  Passed DustBuster.Core.Tests.FixtureTests.FixtureRoundTripsThroughJson(fileName: "vlc.json") [10 ms]
+[xUnit.net 00:00:00.25]   Finished:    DustBuster.Core.Tests
+  Passed DustBuster.Core.Tests.FixtureTests.FixtureRoundTripsThroughJson(fileName: "google-chrome.json") [1 ms]
+  Passed DustBuster.Core.Tests.FixtureTests.FixtureRoundTripsThroughJson(fileName: "notion.json") [< 1 ms]
+  Passed DustBuster.Core.Tests.FixtureTests.FixtureRoundTripsThroughJson(fileName: "whatsapp-msix.json") [< 1 ms]
+  Passed DustBuster.Core.Tests.FixtureTests.FixtureRoundTripsThroughJson(fileName: "discord.json") [< 1 ms]
+  Passed DustBuster.Core.Tests.FixtureTests.BundledRulesAndConditionsLoad [< 1 ms]
+  Passed DustBuster.Core.Tests.FixtureTests.CaptureProducesReplayableFixture [8 ms]
+  Passed DustBuster.Core.Tests.FixtureTests.FixturesDirectoryIsNotEmpty [< 1 ms]
+
+Test Run Successful.
+Total tests: 42
+     Passed: 42
+ Total time: 0.6307 Seconds
+Results File: D:\a\DustBuster-Windows\DustBuster-Windows\TestResults\core-tests.trx

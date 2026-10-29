@@ -1,0 +1,334 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="bb8a5a29-a584-45c1-9547-0781c0fed851" name="runneradmin@runnervmdaln5 2026-10-29 12:29:12" runUser="runnervmdaln5\runneradmin" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2026-10-29T12:29:12.3558068+00:00" queuing="2026-10-29T12:29:12.3558070+00:00" start="2026-10-29T12:29:11.7384976+00:00" finish="2026-10-29T12:29:12.4688016+00:00" />
+  <TestSettings name="default" id="ca912fa9-ca6c-407c-81a7-2f9b85db0c58">
+    <Deployment runDeploymentRoot="runneradmin_runnervmdaln5_2026-10-29_12_29_12" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="97b7ea68-4c33-4b5c-94a3-57918b2a3905" testId="44b16a8f-ffe8-309d-7a4c-ceb93efa88ed" testName="DustBuster.Core.Tests.SearchTermsTests.MultiWordNameGetsBothTokenSetAndSquashedVariant" computerName="runnervmdaln5" duration="00:00:00.0004764" startTime="2026-10-29T12:29:12.3122390+00:00" endTime="2026-10-29T12:29:12.3122390+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="97b7ea68-4c33-4b5c-94a3-57918b2a3905" />
+    <UnitTestResult executionId="e3b15b54-146a-4d6d-9fb4-0ce7e5fb6013" testId="566ed307-dc08-b57a-9fbf-882e04f4605f" testName="DustBuster.Core.Tests.SearchTermsTests.PrefixRuleAppliesOnlyToLongNames" computerName="runnervmdaln5" duration="00:00:00.0001166" startTime="2026-10-29T12:29:12.3132368+00:00" endTime="2026-10-29T12:29:12.3132369+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e3b15b54-146a-4d6d-9fb4-0ce7e5fb6013" />
+    <UnitTestResult executionId="1ab5d18a-e774-49ed-9c9f-25e488794e2f" testId="d8f5e625-6973-d6ef-2990-54091e4c35de" testName="DustBuster.Core.Tests.SearchTermsTests.CleanNameDropsVersionArchAndParentheses" computerName="runnervmdaln5" duration="00:00:00.0009997" startTime="2026-10-29T12:29:12.3120840+00:00" endTime="2026-10-29T12:29:12.3120840+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1ab5d18a-e774-49ed-9c9f-25e488794e2f" />
+    <UnitTestResult executionId="e7785a6c-4ec2-47c8-b08a-6eaf280f61a3" testId="00fe0ba5-a2cf-a86a-3e14-daedaef58e9d" testName="DustBuster.Core.Tests.VirtualFileSystemTests.DirectoriesFilesAndCanonicalCase" computerName="runnervmdaln5" duration="00:00:00.0011430" startTime="2026-10-29T12:29:12.3133791+00:00" endTime="2026-10-29T12:29:12.3133791+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e7785a6c-4ec2-47c8-b08a-6eaf280f61a3" />
+    <UnitTestResult executionId="47b35d0f-9f2c-4931-8076-f9b1fbb28e7c" testId="eb7287ed-fa6d-776b-78b3-a27b48bcf9d8" testName="DustBuster.Core.Tests.FixtureTests.FixtureRoundTripsThroughJson(fileName: &quot;discord.json&quot;)" computerName="runnervmdaln5" duration="00:00:00.0003423" startTime="2026-10-29T12:29:12.3988696+00:00" endTime="2026-10-29T12:29:12.3988697+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="47b35d0f-9f2c-4931-8076-f9b1fbb28e7c" />
+    <UnitTestResult executionId="d78181cc-16e4-4d8f-9955-257fb6a246f5" testId="b203f0fe-ccc9-cbca-98a3-0b26bafb9583" testName="DustBuster.Core.Tests.CleanupPolicyTests.RootCandidatesFollowModes" computerName="runnervmdaln5" duration="00:00:00.0030939" startTime="2026-10-29T12:29:12.3426141+00:00" endTime="2026-10-29T12:29:12.3426143+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d78181cc-16e4-4d8f-9955-257fb6a246f5" />
+    <UnitTestResult executionId="b02098ac-d1f4-41bf-a483-73d291535284" testId="f637823b-9654-6108-98b3-dafbc2b06a96" testName="DustBuster.Core.Tests.GlobTests.ExpandWalksVirtualFileSystem" computerName="runnervmdaln5" duration="00:00:00.0073967" startTime="2026-10-29T12:29:12.3231054+00:00" endTime="2026-10-29T12:29:12.3231055+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b02098ac-d1f4-41bf-a483-73d291535284" />
+    <UnitTestResult executionId="7beecc2c-997a-4ddb-9ac1-00a5517e389d" testId="6a1f862d-cd15-6dd1-92d9-3b2207fc5bfa" testName="DustBuster.Core.Tests.SearchTermsTests.VendorTokensAndNameEqualsVendor" computerName="runnervmdaln5" duration="00:00:00.0002286" startTime="2026-10-29T12:29:12.3133039+00:00" endTime="2026-10-29T12:29:12.3133040+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7beecc2c-997a-4ddb-9ac1-00a5517e389d" />
+    <UnitTestResult executionId="e8b9bf6d-8843-446b-a073-c84468f6d351" testId="325eb0cf-13eb-dba3-4240-bc7d97464fc4" testName="DustBuster.Core.Tests.KnownFoldersTests.ExpandAndContractRoundTrip" computerName="runnervmdaln5" duration="00:00:00.0049043" startTime="2026-10-29T12:29:12.3155275+00:00" endTime="2026-10-29T12:29:12.3155275+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e8b9bf6d-8843-446b-a073-c84468f6d351" />
+    <UnitTestResult executionId="c33b53e1-cdfa-4477-a191-10cd6af6ff67" testId="fc9f5ee0-cdb3-28d2-01b0-ba019970c968" testName="DustBuster.Core.Tests.SearchTermsTests.IdentifiersMatchExactlyOrWithDotUnderscoreSuffix" computerName="runnervmdaln5" duration="00:00:00.0005884" startTime="2026-10-29T12:29:12.3120523+00:00" endTime="2026-10-29T12:29:12.3120523+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c33b53e1-cdfa-4477-a191-10cd6af6ff67" />
+    <UnitTestResult executionId="2edec2a2-d7bf-4619-9aa2-82f01643739f" testId="e46226f9-56b0-02c2-ed8c-43780912c915" testName="DustBuster.Core.Tests.FixtureTests.FixturePasses(fileName: &quot;notion.json&quot;)" computerName="runnervmdaln5" duration="00:00:00.0031826" startTime="2026-10-29T12:29:12.3797450+00:00" endTime="2026-10-29T12:29:12.3797453+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2edec2a2-d7bf-4619-9aa2-82f01643739f">
+      <Output>
+        <StdOut>strong installFolder %LOCALAPPDATA%\Programs\Notion  — Kurulum klasörü&#xD;
+strong exactPath     %APPDATA%\Notion  — AppData\Roaming (ad)&#xD;
+strong exactPath     %LOCALAPPDATA%\Notion  — AppData\Local (ad)&#xD;
+strong exactPath     HKCU:\Software\Microsoft\Windows\CurrentVersion\Uninstall\Notion  — Uninstall kaydı&#xD;
+strong exactPath     HKCU:\Software\Notion  — HKCU\Software (ad)&#xD;
+strong startup       HKCU:\Software\Microsoft\Windows\CurrentVersion\Run\Notion  — Başlangıç komutu kurulum klasöründe: Notion.exe&#xD;
+strong exactPath     %APPDATA%\Microsoft\Windows\Start Menu\Programs\Notion.lnk  — Başlat Menüsü kısayolu&#xD;
+strong exactPath     %USERPROFILE%\Desktop\Notion.lnk  — Masaüstü kısayolu — masaüstü kısayolu&#xD;
+weak   name          %APPDATA%\Notion Calendar  — Roaming&#xD;
+weak   name          %TEMP%\notion-installer.exe  — Temp — geçici klasör</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="a7c02ce8-6299-48d6-8499-fdce0e7c5bc5" testId="6ef020be-3541-8099-96f6-c5dbe7362772" testName="DustBuster.Core.Tests.FixtureTests.FixturePasses(fileName: &quot;whatsapp-msix.json&quot;)" computerName="runnervmdaln5" duration="00:00:00.0015348" startTime="2026-10-29T12:29:12.3813520+00:00" endTime="2026-10-29T12:29:12.3813524+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a7c02ce8-6299-48d6-8499-fdce0e7c5bc5">
+      <Output>
+        <StdOut>strong exactPath     %APPDATA%\WhatsApp  — AppData\Roaming (ad)&#xD;
+strong exactPath     %LOCALAPPDATA%\WhatsApp  — AppData\Local (ad)&#xD;
+strong exactPath     %LOCALAPPDATA%\Packages\5319275A.WhatsAppDesktop_cv1g1gvanyjgm  — Paket verisi (PackageFamilyName)&#xD;
+weak   name          %APPDATA%\WhatsApp Desktop  — Roaming&#xD;
+reject %PROGRAMFILES%\WindowsApps\5319275A.WhatsAppDesktop_2.2402.5.0_x64__cv1g1gvanyjgm  — kurulum klasörü: Windows bileşeni veya ortak alan: WindowsApps</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="c207490e-9fb7-4bb5-b4a6-2f062e6700d0" testId="9bc72fa5-2285-19e5-3d2c-d36359f9aa44" testName="DustBuster.Core.Tests.FixtureTests.FixturesDirectoryIsNotEmpty" computerName="runnervmdaln5" duration="00:00:00.0002139" startTime="2026-10-29T12:29:12.4085932+00:00" endTime="2026-10-29T12:29:12.4085933+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c207490e-9fb7-4bb5-b4a6-2f062e6700d0" />
+    <UnitTestResult executionId="4894bb1d-2b6b-4c21-b515-66614ad8f97c" testId="fe12a85f-1bfa-014f-0fe9-43ece65aed98" testName="DustBuster.Core.Tests.FixtureTests.FixtureRoundTripsThroughJson(fileName: &quot;notion.json&quot;)" computerName="runnervmdaln5" duration="00:00:00.0004630" startTime="2026-10-29T12:29:12.3984244+00:00" endTime="2026-10-29T12:29:12.3984244+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4894bb1d-2b6b-4c21-b515-66614ad8f97c" />
+    <UnitTestResult executionId="200b578e-b85b-4af5-98d4-d9bb20a9574b" testId="952108c4-30ab-2c55-9db3-523284219cfd" testName="DustBuster.Core.Tests.VirtualFileSystemTests.RegistryKeysBehaveLikeDirectoriesAndValuesLikeFiles" computerName="runnervmdaln5" duration="00:00:00.0006315" startTime="2026-10-29T12:29:12.3133511+00:00" endTime="2026-10-29T12:29:12.3133511+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="200b578e-b85b-4af5-98d4-d9bb20a9574b" />
+    <UnitTestResult executionId="1f2c9f63-87e9-4cd6-a364-94406ff7a9e9" testId="253a6a2d-f7e0-8977-a212-585721c7ce30" testName="DustBuster.Core.Tests.SearchTermsTests.WeakMatchOnlyLooksAtOwnName" computerName="runnervmdaln5" duration="00:00:00.0001195" startTime="2026-10-29T12:29:12.3132745+00:00" endTime="2026-10-29T12:29:12.3132746+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1f2c9f63-87e9-4cd6-a364-94406ff7a9e9" />
+    <UnitTestResult executionId="7ceab367-be79-42f6-b233-0e98d367e32b" testId="2c7a71e6-3f60-693f-0ac3-e671de226952" testName="DustBuster.Core.Tests.PathClassifierTests.SystemLocationsRequireTheOption" computerName="runnervmdaln5" duration="00:00:00.0002171" startTime="2026-10-29T12:29:12.2886106+00:00" endTime="2026-10-29T12:29:12.2886107+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7ceab367-be79-42f6-b233-0e98d367e32b" />
+    <UnitTestResult executionId="1af92cb8-2a0e-4310-808e-6db0bd22f8ee" testId="724d433e-5a89-5124-7e20-36bd7b6d682d" testName="DustBuster.Core.Tests.CleanupPolicyTests.DetectsChromiumBrowsersIncludingSplitProfileRoots" computerName="runnervmdaln5" duration="00:00:00.0029512" startTime="2026-10-29T12:29:12.3488672+00:00" endTime="2026-10-29T12:29:12.3488673+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1af92cb8-2a0e-4310-808e-6db0bd22f8ee" />
+    <UnitTestResult executionId="4212d5b2-ca60-4628-8c30-4d8d7328c720" testId="70d105ce-9463-1c77-f234-8ba0803d7087" testName="DustBuster.Core.Tests.SearchTermsTests.PlainUninstallKeyNamesAreNotIdentifiers" computerName="runnervmdaln5" duration="00:00:00.0006089" startTime="2026-10-29T12:29:12.3122060+00:00" endTime="2026-10-29T12:29:12.3122061+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4212d5b2-ca60-4628-8c30-4d8d7328c720" />
+    <UnitTestResult executionId="48c85393-963a-4d99-a9af-019bd955c688" testId="4ccd87fc-8347-e233-27ff-749f5da14400" testName="DustBuster.Core.Tests.SearchTermsTests.ChannelWordsSeparateApps" computerName="runnervmdaln5" duration="00:00:00.0001408" startTime="2026-10-29T12:29:12.3122681+00:00" endTime="2026-10-29T12:29:12.3122681+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="48c85393-963a-4d99-a9af-019bd955c688" />
+    <UnitTestResult executionId="4aa5b791-7aba-4768-ab34-dbd906720d9b" testId="ff86b13b-788c-ba8d-2770-98a175354ed2" testName="DustBuster.Core.Tests.CommandLineTests.ExtractsExecutableFromCommands" computerName="runnervmdaln5" duration="00:00:00.0009012" startTime="2026-10-29T12:29:12.3250645+00:00" endTime="2026-10-29T12:29:12.3250646+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4aa5b791-7aba-4768-ab34-dbd906720d9b" />
+    <UnitTestResult executionId="441059a0-a5bd-4d61-a4ba-9de5739de00c" testId="2d60f2c1-ff22-a0ad-fb0e-238430f41a12" testName="DustBuster.Core.Tests.SearchTermsTests.MicrosoftFoldersNeverMatchForeignApps" computerName="runnervmdaln5" duration="00:00:00.0064802" startTime="2026-10-29T12:29:12.3120209+00:00" endTime="2026-10-29T12:29:12.3120209+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="441059a0-a5bd-4d61-a4ba-9de5739de00c" />
+    <UnitTestResult executionId="1b60a29c-4cc2-4638-9631-5aaac22e7a41" testId="fa283d6a-916a-20c8-ddfa-ceecc2bc99e1" testName="DustBuster.Core.Tests.SearchTermsTests.ExecutableNameIsAnExtraNameVariant" computerName="runnervmdaln5" duration="00:00:00.0011134" startTime="2026-10-29T12:29:12.3121760+00:00" endTime="2026-10-29T12:29:12.3121761+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1b60a29c-4cc2-4638-9631-5aaac22e7a41" />
+    <UnitTestResult executionId="58288079-aa6a-4c29-94d2-b1fcac87cb05" testId="65c357de-963b-9e9b-099e-35526143da75" testName="DustBuster.Core.Tests.FixtureTests.CaptureProducesReplayableFixture" computerName="runnervmdaln5" duration="00:00:00.0083852" startTime="2026-10-29T12:29:12.4082584+00:00" endTime="2026-10-29T12:29:12.4082585+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="58288079-aa6a-4c29-94d2-b1fcac87cb05" />
+    <UnitTestResult executionId="bca6ad92-ea4f-448a-87ce-13ec10e2ae7a" testId="5b4e2ec9-0707-845f-1627-b4ea6a61c0a2" testName="DustBuster.Core.Tests.CleanupPolicyTests.VerdictBlocksSensitiveAndForbiddenPaths" computerName="runnervmdaln5" duration="00:00:00.0030453" startTime="2026-10-29T12:29:12.3459270+00:00" endTime="2026-10-29T12:29:12.3459272+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="bca6ad92-ea4f-448a-87ce-13ec10e2ae7a" />
+    <UnitTestResult executionId="6ff940ec-4c76-4fdf-a23f-b6e0922b304b" testId="2722f048-f3c4-60ab-19eb-4cb44cb67f3e" testName="DustBuster.Core.Tests.GlobTests.WildcardMatching" computerName="runnervmdaln5" duration="00:00:00.0001466" startTime="2026-10-29T12:29:12.3237981+00:00" endTime="2026-10-29T12:29:12.3237982+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6ff940ec-4c76-4fdf-a23f-b6e0922b304b" />
+    <UnitTestResult executionId="c50086c6-cfe5-45e3-a2f6-5cf97dd66ed5" testId="32f1853d-0d8c-2cbb-f6a7-d6ec1cec55db" testName="DustBuster.Core.Tests.FixtureTests.BundledRulesAndConditionsLoad" computerName="runnervmdaln5" duration="00:00:00.0007489" startTime="2026-10-29T12:29:12.3997891+00:00" endTime="2026-10-29T12:29:12.3997892+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c50086c6-cfe5-45e3-a2f6-5cf97dd66ed5" />
+    <UnitTestResult executionId="d4271b97-541f-493f-b083-307d4da76060" testId="a628db80-8c94-eadc-2c34-1a481e32ba86" testName="DustBuster.Core.Tests.PathClassifierTests.KindsFollowKnownFolders" computerName="runnervmdaln5" duration="00:00:00.0019496" startTime="2026-10-29T12:29:12.2883432+00:00" endTime="2026-10-29T12:29:12.2883433+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d4271b97-541f-493f-b083-307d4da76060" />
+    <UnitTestResult executionId="7eaf43d1-84f2-4264-a02b-747cca6b4c72" testId="8f9fed06-5764-b025-e397-4913e99a2845" testName="DustBuster.Core.Tests.FixtureTests.FixtureRoundTripsThroughJson(fileName: &quot;whatsapp-msix.json&quot;)" computerName="runnervmdaln5" duration="00:00:00.0003360" startTime="2026-10-29T12:29:12.3984931+00:00" endTime="2026-10-29T12:29:12.3984932+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7eaf43d1-84f2-4264-a02b-747cca6b4c72" />
+    <UnitTestResult executionId="41714536-2f44-4a30-a9fc-25e566219f68" testId="279844a6-43cd-f769-d43b-06c01ed4ee84" testName="DustBuster.Core.Tests.FixtureTests.FixturePasses(fileName: &quot;google-chrome.json&quot;)" computerName="runnervmdaln5" duration="00:00:00.0030915" startTime="2026-10-29T12:29:12.3844583+00:00" endTime="2026-10-29T12:29:12.3844584+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="41714536-2f44-4a30-a9fc-25e566219f68">
+      <Output>
+        <StdOut>strong name          %LOCALAPPDATA%\Google\Chrome  — Google&#xD;
+strong name          HKCU:\Software\Google\Chrome  — Google&#xD;
+strong name          HKLM:\Software\Google\Chrome  — Google — yönetici yetkisi gerekir&#xD;
+strong exactPath     HKLM:\Software\Microsoft\Windows\CurrentVersion\Uninstall\Google Chrome  — Uninstall kaydı — yönetici yetkisi gerekir&#xD;
+strong exactPath     %PROGRAMDATA%\Microsoft\Windows\Start Menu\Programs\Google Chrome.lnk  — Başlat Menüsü kısayolu — tüm kullanıcılar için ortak&#xD;
+strong exactPath     %PUBLIC%\Desktop\Google Chrome.lnk  — Masaüstü kısayolu — masaüstü kısayolu&#xD;
+strong service       HKLM:\SYSTEM\CurrentControlSet\Services\GoogleChromeElevationService  — Hizmet yürütülebiliri kurulum klasöründe: elevation_service.exe&#xD;
+strong name          %PROGRAMFILES%\Google\Chrome  — Google — yönetici yetkisi gerekir&#xD;
+reject %PROGRAMFILES%\Google\Chrome\Application  — üst klasörü zaten listede: C:\Program Files\Google\Chrome</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="be820094-c344-48e1-ae83-67b47bcc7821" testId="51cd5d18-9f6e-405d-e7af-89cf23dc2262" testName="DustBuster.Core.Tests.CleanupPolicyTests.AppCachesAreFoundButBrowsersAndUserDataAreNot" computerName="runnervmdaln5" duration="00:00:00.0626498" startTime="2026-10-29T12:29:12.3393937+00:00" endTime="2026-10-29T12:29:12.3393939+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="be820094-c344-48e1-ae83-67b47bcc7821" />
+    <UnitTestResult executionId="5b806727-84b5-47bb-8fd1-a7ad9a5f768b" testId="184a2f62-e908-d002-9a15-af7ac6c15876" testName="DustBuster.Core.Tests.SearchTermsTests.GenericAndShortNamesProduceNoTokenSets" computerName="runnervmdaln5" duration="00:00:00.0004772" startTime="2026-10-29T12:29:12.3121484+00:00" endTime="2026-10-29T12:29:12.3121485+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5b806727-84b5-47bb-8fd1-a7ad9a5f768b" />
+    <UnitTestResult executionId="46d3734a-f52a-46cf-ac59-94658197a4ba" testId="5cd2239a-0647-54d6-40ea-561dbd470b25" testName="DustBuster.Core.Tests.FixtureTests.FixturePasses(fileName: &quot;vlc.json&quot;)" computerName="runnervmdaln5" duration="00:00:00.0012468" startTime="2026-10-29T12:29:12.3857441+00:00" endTime="2026-10-29T12:29:12.3857442+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="46d3734a-f52a-46cf-ac59-94658197a4ba">
+      <Output>
+        <StdOut>strong installFolder %PROGRAMFILES%\VideoLAN\VLC  — Kurulum klasörü — yönetici yetkisi gerekir&#xD;
+strong exactPath     %APPDATA%\vlc  — AppData\Roaming (ad)&#xD;
+strong exactPath     HKCU:\Software\VideoLAN\VLC  — HKCU\Software (satıcı\ad)&#xD;
+strong shortcut      %PROGRAMDATA%\Microsoft\Windows\Start Menu\Programs\VideoLAN  — Başlat Menüsü klasörü, tüm kısayolları kurulum klasörüne gidiyor&#xD;
+strong exactPath     %USERPROFILE%\Desktop\VLC media player.lnk  — Masaüstü kısayolu — masaüstü kısayolu&#xD;
+reject %PROGRAMDATA%\Microsoft\Windows\Start Menu\Programs\VideoLAN\VLC media player.lnk  — üst klasörü zaten listede: C:\ProgramData\Microsoft\Windows\Start Menu\Programs\VideoLAN</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="1f809e2e-247e-494e-84b2-640487c1d967" testId="8f9ac874-b840-8de9-05b5-518cd8ffe1e4" testName="DustBuster.Core.Tests.FixtureTests.FixtureRoundTripsThroughJson(fileName: &quot;google-chrome.json&quot;)" computerName="runnervmdaln5" duration="00:00:00.0010891" startTime="2026-10-29T12:29:12.3983918+00:00" endTime="2026-10-29T12:29:12.3983919+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1f809e2e-247e-494e-84b2-640487c1d967" />
+    <UnitTestResult executionId="0deccff6-214e-4654-9e30-1ea675eb9da4" testId="040a6f9b-3b6d-f0ee-2229-aee62e9c2ad3" testName="DustBuster.Core.Tests.FixtureTests.FixtureRoundTripsThroughJson(fileName: &quot;vlc.json&quot;)" computerName="runnervmdaln5" duration="00:00:00.0104968" startTime="2026-10-29T12:29:12.3964105+00:00" endTime="2026-10-29T12:29:12.3964107+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0deccff6-214e-4654-9e30-1ea675eb9da4" />
+    <UnitTestResult executionId="efe27240-3329-4447-be25-6536077a82a5" testId="06ef7a8d-5be8-bc80-ae9b-4f50a66605fc" testName="DustBuster.Core.Tests.SearchTermsTests.TokensSplitOnNonAlphanumerics" computerName="runnervmdaln5" duration="00:00:00.0076426" startTime="2026-10-29T12:29:12.3118406+00:00" endTime="2026-10-29T12:29:12.3118408+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="efe27240-3329-4447-be25-6536077a82a5" />
+    <UnitTestResult executionId="00b4b5dd-3493-4791-b698-1ce7a7ad18fe" testId="d534b19f-d9aa-5518-dac9-92eaa8dc049f" testName="DustBuster.Core.Tests.PathClassifierTests.AppDataIsAcceptedExceptProtectedWindowsAreas" computerName="runnervmdaln5" duration="00:00:00.0047363" startTime="2026-10-29T12:29:12.2832653+00:00" endTime="2026-10-29T12:29:12.2832796+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="00b4b5dd-3493-4791-b698-1ce7a7ad18fe" />
+    <UnitTestResult executionId="037c73a6-09a0-46ea-9d56-19778e5f3b84" testId="6432e554-9d7a-8adb-4b6e-41a88b66bd62" testName="DustBuster.Core.Tests.PathClassifierTests.UserDataIsNeverAccepted" computerName="runnervmdaln5" duration="00:00:00.0030113" startTime="2026-10-29T12:29:12.2859338+00:00" endTime="2026-10-29T12:29:12.2859338+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="037c73a6-09a0-46ea-9d56-19778e5f3b84" />
+    <UnitTestResult executionId="7df6b2f0-e211-4419-8d9e-123da86c21d3" testId="e88ec1b7-89b0-2e96-de38-8a3c7c178477" testName="DustBuster.Core.Tests.PathUtilTests.NormalizeAndRoots" computerName="runnervmdaln5" duration="00:00:00.0042798" startTime="2026-10-29T12:29:12.2850374+00:00" endTime="2026-10-29T12:29:12.2850374+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7df6b2f0-e211-4419-8d9e-123da86c21d3" />
+    <UnitTestResult executionId="b257b056-ae84-4f50-ae3d-abf85df957fe" testId="d933d9e6-f007-70d7-3775-cd8a170ee363" testName="DustBuster.Core.Tests.PathUtilTests.RelativeAndUnderAreCaseInsensitive" computerName="runnervmdaln5" duration="00:00:00.0000538" startTime="2026-10-29T12:29:12.2858791+00:00" endTime="2026-10-29T12:29:12.2858791+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b257b056-ae84-4f50-ae3d-abf85df957fe" />
+    <UnitTestResult executionId="d038e2c9-c5fa-4e08-b2e3-bdba73ab0207" testId="da1f405d-4612-b204-1911-c6044ef7b1ea" testName="DustBuster.Core.Tests.PathClassifierTests.RegistryRules" computerName="runnervmdaln5" duration="00:00:00.0004521" startTime="2026-10-29T12:29:12.2863602+00:00" endTime="2026-10-29T12:29:12.2863603+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d038e2c9-c5fa-4e08-b2e3-bdba73ab0207" />
+    <UnitTestResult executionId="f553e052-250c-4b0d-8a66-0a3127963c71" testId="5fed3c37-7c68-7a64-5c33-8217d8c32c13" testName="DustBuster.Core.Tests.FixtureTests.FixturePasses(fileName: &quot;discord.json&quot;)" computerName="runnervmdaln5" duration="00:00:00.0912752" startTime="2026-10-29T12:29:12.3764003+00:00" endTime="2026-10-29T12:29:12.3764014+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f553e052-250c-4b0d-8a66-0a3127963c71">
+      <Output>
+        <StdOut>strong installFolder %LOCALAPPDATA%\Discord  — Kurulum klasörü&#xD;
+strong exactPath     %APPDATA%\discord  — AppData\Roaming (ad)&#xD;
+strong exactPath     HKCU:\Software\Discord  — HKCU\Software (ad)&#xD;
+strong exactPath     HKCU:\Software\Microsoft\Windows\CurrentVersion\Uninstall\Discord  — Uninstall kaydı&#xD;
+strong startup       HKCU:\Software\Microsoft\Windows\CurrentVersion\Run\Discord  — Başlangıç komutu kurulum klasöründe: Update.exe&#xD;
+strong shortcut      %APPDATA%\Microsoft\Windows\Start Menu\Programs\Discord Inc  — Başlat Menüsü klasörü, tüm kısayolları kurulum klasörüne gidiyor&#xD;
+strong exactPath     %USERPROFILE%\Desktop\Discord.lnk  — Masaüstü kısayolu — masaüstü kısayolu&#xD;
+weak   condition     %LOCALAPPDATA%\SquirrelTemp  — Kural: discord — Squirrel güncelleyici geçici klasörü, başka uygulamalar da kullanır&#xD;
+reject %APPDATA%\Microsoft\Windows\Start Menu\Programs\Discord Inc\Discord.lnk  — üst klasörü zaten listede: C:\Users\test\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Discord Inc</StdOut>
+      </Output>
+    </UnitTestResult>
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="DustBuster.Core.Tests.PathClassifierTests.UserDataIsNeverAccepted" storage="d:\a\dustbuster-windows\dustbuster-windows\tests\dustbuster.core.tests\bin\release\net8.0\dustbuster.core.tests.dll" id="6432e554-9d7a-8adb-4b6e-41a88b66bd62">
+      <Execution id="037c73a6-09a0-46ea-9d56-19778e5f3b84" />
+      <TestMethod codeBase="D:\a\DustBuster-Windows\DustBuster-Windows\tests\DustBuster.Core.Tests\bin\Release\net8.0\DustBuster.Core.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="DustBuster.Core.Tests.PathClassifierTests" name="UserDataIsNeverAccepted" />
+    </UnitTest>
+    <UnitTest name="DustBuster.Core.Tests.FixtureTests.FixtureRoundTripsThroughJson(fileName: &quot;whatsapp-msix.json&quot;)" storage="d:\a\dustbuster-windows\dustbuster-windows\tests\dustbuster.core.tests\bin\release\net8.0\dustbuster.core.tests.dll" id="8f9fed06-5764-b025-e397-4913e99a2845">
+      <Execution id="7eaf43d1-84f2-4264-a02b-747cca6b4c72" />
+      <TestMethod codeBase="D:\a\DustBuster-Windows\DustBuster-Windows\tests\DustBuster.Core.Tests\bin\Release\net8.0\DustBuster.Core.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="DustBuster.Core.Tests.FixtureTests" name="FixtureRoundTripsThroughJson" />
+    </UnitTest>
+    <UnitTest name="DustBuster.Core.Tests.FixtureTests.BundledRulesAndConditionsLoad" storage="d:\a\dustbuster-windows\dustbuster-windows\tests\dustbuster.core.tests\bin\release\net8.0\dustbuster.core.tests.dll" id="32f1853d-0d8c-2cbb-f6a7-d6ec1cec55db">
+      <Execution id="c50086c6-cfe5-45e3-a2f6-5cf97dd66ed5" />
+      <TestMethod codeBase="D:\a\DustBuster-Windows\DustBuster-Windows\tests\DustBuster.Core.Tests\bin\Release\net8.0\DustBuster.Core.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="DustBuster.Core.Tests.FixtureTests" name="BundledRulesAndConditionsLoad" />
+    </UnitTest>
+    <UnitTest name="DustBuster.Core.Tests.CleanupPolicyTests.RootCandidatesFollowModes" storage="d:\a\dustbuster-windows\dustbuster-windows\tests\dustbuster.core.tests\bin\release\net8.0\dustbuster.core.tests.dll" id="b203f0fe-ccc9-cbca-98a3-0b26bafb9583">
+      <Execution id="d78181cc-16e4-4d8f-9955-257fb6a246f5" />
+      <TestMethod codeBase="D:\a\DustBuster-Windows\DustBuster-Windows\tests\DustBuster.Core.Tests\bin\Release\net8.0\DustBuster.Core.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="DustBuster.Core.Tests.CleanupPolicyTests" name="RootCandidatesFollowModes" />
+    </UnitTest>
+    <UnitTest name="DustBuster.Core.Tests.CommandLineTests.ExtractsExecutableFromCommands" storage="d:\a\dustbuster-windows\dustbuster-windows\tests\dustbuster.core.tests\bin\release\net8.0\dustbuster.core.tests.dll" id="ff86b13b-788c-ba8d-2770-98a175354ed2">
+      <Execution id="4aa5b791-7aba-4768-ab34-dbd906720d9b" />
+      <TestMethod codeBase="D:\a\DustBuster-Windows\DustBuster-Windows\tests\DustBuster.Core.Tests\bin\Release\net8.0\DustBuster.Core.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="DustBuster.Core.Tests.CommandLineTests" name="ExtractsExecutableFromCommands" />
+    </UnitTest>
+    <UnitTest name="DustBuster.Core.Tests.FixtureTests.FixtureRoundTripsThroughJson(fileName: &quot;vlc.json&quot;)" storage="d:\a\dustbuster-windows\dustbuster-windows\tests\dustbuster.core.tests\bin\release\net8.0\dustbuster.core.tests.dll" id="040a6f9b-3b6d-f0ee-2229-aee62e9c2ad3">
+      <Execution id="0deccff6-214e-4654-9e30-1ea675eb9da4" />
+      <TestMethod codeBase="D:\a\DustBuster-Windows\DustBuster-Windows\tests\DustBuster.Core.Tests\bin\Release\net8.0\DustBuster.Core.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="DustBuster.Core.Tests.FixtureTests" name="FixtureRoundTripsThroughJson" />
+    </UnitTest>
+    <UnitTest name="DustBuster.Core.Tests.FixtureTests.FixturesDirectoryIsNotEmpty" storage="d:\a\dustbuster-windows\dustbuster-windows\tests\dustbuster.core.tests\bin\release\net8.0\dustbuster.core.tests.dll" id="9bc72fa5-2285-19e5-3d2c-d36359f9aa44">
+      <Execution id="c207490e-9fb7-4bb5-b4a6-2f062e6700d0" />
+      <TestMethod codeBase="D:\a\DustBuster-Windows\DustBuster-Windows\tests\DustBuster.Core.Tests\bin\Release\net8.0\DustBuster.Core.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="DustBuster.Core.Tests.FixtureTests" name="FixturesDirectoryIsNotEmpty" />
+    </UnitTest>
+    <UnitTest name="DustBuster.Core.Tests.FixtureTests.FixturePasses(fileName: &quot;discord.json&quot;)" storage="d:\a\dustbuster-windows\dustbuster-windows\tests\dustbuster.core.tests\bin\release\net8.0\dustbuster.core.tests.dll" id="5fed3c37-7c68-7a64-5c33-8217d8c32c13">
+      <Execution id="f553e052-250c-4b0d-8a66-0a3127963c71" />
+      <TestMethod codeBase="D:\a\DustBuster-Windows\DustBuster-Windows\tests\DustBuster.Core.Tests\bin\Release\net8.0\DustBuster.Core.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="DustBuster.Core.Tests.FixtureTests" name="FixturePasses" />
+    </UnitTest>
+    <UnitTest name="DustBuster.Core.Tests.PathClassifierTests.AppDataIsAcceptedExceptProtectedWindowsAreas" storage="d:\a\dustbuster-windows\dustbuster-windows\tests\dustbuster.core.tests\bin\release\net8.0\dustbuster.core.tests.dll" id="d534b19f-d9aa-5518-dac9-92eaa8dc049f">
+      <Execution id="00b4b5dd-3493-4791-b698-1ce7a7ad18fe" />
+      <TestMethod codeBase="D:\a\DustBuster-Windows\DustBuster-Windows\tests\DustBuster.Core.Tests\bin\Release\net8.0\DustBuster.Core.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="DustBuster.Core.Tests.PathClassifierTests" name="AppDataIsAcceptedExceptProtectedWindowsAreas" />
+    </UnitTest>
+    <UnitTest name="DustBuster.Core.Tests.SearchTermsTests.ChannelWordsSeparateApps" storage="d:\a\dustbuster-windows\dustbuster-windows\tests\dustbuster.core.tests\bin\release\net8.0\dustbuster.core.tests.dll" id="4ccd87fc-8347-e233-27ff-749f5da14400">
+      <Execution id="48c85393-963a-4d99-a9af-019bd955c688" />
+      <TestMethod codeBase="D:\a\DustBuster-Windows\DustBuster-Windows\tests\DustBuster.Core.Tests\bin\Release\net8.0\DustBuster.Core.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="DustBuster.Core.Tests.SearchTermsTests" name="ChannelWordsSeparateApps" />
+    </UnitTest>
+    <UnitTest name="DustBuster.Core.Tests.FixtureTests.FixtureRoundTripsThroughJson(fileName: &quot;google-chrome.json&quot;)" storage="d:\a\dustbuster-windows\dustbuster-windows\tests\dustbuster.core.tests\bin\release\net8.0\dustbuster.core.tests.dll" id="8f9ac874-b840-8de9-05b5-518cd8ffe1e4">
+      <Execution id="1f809e2e-247e-494e-84b2-640487c1d967" />
+      <TestMethod codeBase="D:\a\DustBuster-Windows\DustBuster-Windows\tests\DustBuster.Core.Tests\bin\Release\net8.0\DustBuster.Core.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="DustBuster.Core.Tests.FixtureTests" name="FixtureRoundTripsThroughJson" />
+    </UnitTest>
+    <UnitTest name="DustBuster.Core.Tests.SearchTermsTests.TokensSplitOnNonAlphanumerics" storage="d:\a\dustbuster-windows\dustbuster-windows\tests\dustbuster.core.tests\bin\release\net8.0\dustbuster.core.tests.dll" id="06ef7a8d-5be8-bc80-ae9b-4f50a66605fc">
+      <Execution id="efe27240-3329-4447-be25-6536077a82a5" />
+      <TestMethod codeBase="D:\a\DustBuster-Windows\DustBuster-Windows\tests\DustBuster.Core.Tests\bin\Release\net8.0\DustBuster.Core.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="DustBuster.Core.Tests.SearchTermsTests" name="TokensSplitOnNonAlphanumerics" />
+    </UnitTest>
+    <UnitTest name="DustBuster.Core.Tests.PathUtilTests.NormalizeAndRoots" storage="d:\a\dustbuster-windows\dustbuster-windows\tests\dustbuster.core.tests\bin\release\net8.0\dustbuster.core.tests.dll" id="e88ec1b7-89b0-2e96-de38-8a3c7c178477">
+      <Execution id="7df6b2f0-e211-4419-8d9e-123da86c21d3" />
+      <TestMethod codeBase="D:\a\DustBuster-Windows\DustBuster-Windows\tests\DustBuster.Core.Tests\bin\Release\net8.0\DustBuster.Core.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="DustBuster.Core.Tests.PathUtilTests" name="NormalizeAndRoots" />
+    </UnitTest>
+    <UnitTest name="DustBuster.Core.Tests.CleanupPolicyTests.VerdictBlocksSensitiveAndForbiddenPaths" storage="d:\a\dustbuster-windows\dustbuster-windows\tests\dustbuster.core.tests\bin\release\net8.0\dustbuster.core.tests.dll" id="5b4e2ec9-0707-845f-1627-b4ea6a61c0a2">
+      <Execution id="bca6ad92-ea4f-448a-87ce-13ec10e2ae7a" />
+      <TestMethod codeBase="D:\a\DustBuster-Windows\DustBuster-Windows\tests\DustBuster.Core.Tests\bin\Release\net8.0\DustBuster.Core.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="DustBuster.Core.Tests.CleanupPolicyTests" name="VerdictBlocksSensitiveAndForbiddenPaths" />
+    </UnitTest>
+    <UnitTest name="DustBuster.Core.Tests.GlobTests.ExpandWalksVirtualFileSystem" storage="d:\a\dustbuster-windows\dustbuster-windows\tests\dustbuster.core.tests\bin\release\net8.0\dustbuster.core.tests.dll" id="f637823b-9654-6108-98b3-dafbc2b06a96">
+      <Execution id="b02098ac-d1f4-41bf-a483-73d291535284" />
+      <TestMethod codeBase="D:\a\DustBuster-Windows\DustBuster-Windows\tests\DustBuster.Core.Tests\bin\Release\net8.0\DustBuster.Core.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="DustBuster.Core.Tests.GlobTests" name="ExpandWalksVirtualFileSystem" />
+    </UnitTest>
+    <UnitTest name="DustBuster.Core.Tests.SearchTermsTests.PrefixRuleAppliesOnlyToLongNames" storage="d:\a\dustbuster-windows\dustbuster-windows\tests\dustbuster.core.tests\bin\release\net8.0\dustbuster.core.tests.dll" id="566ed307-dc08-b57a-9fbf-882e04f4605f">
+      <Execution id="e3b15b54-146a-4d6d-9fb4-0ce7e5fb6013" />
+      <TestMethod codeBase="D:\a\DustBuster-Windows\DustBuster-Windows\tests\DustBuster.Core.Tests\bin\Release\net8.0\DustBuster.Core.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="DustBuster.Core.Tests.SearchTermsTests" name="PrefixRuleAppliesOnlyToLongNames" />
+    </UnitTest>
+    <UnitTest name="DustBuster.Core.Tests.FixtureTests.FixturePasses(fileName: &quot;whatsapp-msix.json&quot;)" storage="d:\a\dustbuster-windows\dustbuster-windows\tests\dustbuster.core.tests\bin\release\net8.0\dustbuster.core.tests.dll" id="6ef020be-3541-8099-96f6-c5dbe7362772">
+      <Execution id="a7c02ce8-6299-48d6-8499-fdce0e7c5bc5" />
+      <TestMethod codeBase="D:\a\DustBuster-Windows\DustBuster-Windows\tests\DustBuster.Core.Tests\bin\Release\net8.0\DustBuster.Core.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="DustBuster.Core.Tests.FixtureTests" name="FixturePasses" />
+    </UnitTest>
+    <UnitTest name="DustBuster.Core.Tests.PathClassifierTests.RegistryRules" storage="d:\a\dustbuster-windows\dustbuster-windows\tests\dustbuster.core.tests\bin\release\net8.0\dustbuster.core.tests.dll" id="da1f405d-4612-b204-1911-c6044ef7b1ea">
+      <Execution id="d038e2c9-c5fa-4e08-b2e3-bdba73ab0207" />
+      <TestMethod codeBase="D:\a\DustBuster-Windows\DustBuster-Windows\tests\DustBuster.Core.Tests\bin\Release\net8.0\DustBuster.Core.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="DustBuster.Core.Tests.PathClassifierTests" name="RegistryRules" />
+    </UnitTest>
+    <UnitTest name="DustBuster.Core.Tests.CleanupPolicyTests.DetectsChromiumBrowsersIncludingSplitProfileRoots" storage="d:\a\dustbuster-windows\dustbuster-windows\tests\dustbuster.core.tests\bin\release\net8.0\dustbuster.core.tests.dll" id="724d433e-5a89-5124-7e20-36bd7b6d682d">
+      <Execution id="1af92cb8-2a0e-4310-808e-6db0bd22f8ee" />
+      <TestMethod codeBase="D:\a\DustBuster-Windows\DustBuster-Windows\tests\DustBuster.Core.Tests\bin\Release\net8.0\DustBuster.Core.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="DustBuster.Core.Tests.CleanupPolicyTests" name="DetectsChromiumBrowsersIncludingSplitProfileRoots" />
+    </UnitTest>
+    <UnitTest name="DustBuster.Core.Tests.FixtureTests.FixtureRoundTripsThroughJson(fileName: &quot;discord.json&quot;)" storage="d:\a\dustbuster-windows\dustbuster-windows\tests\dustbuster.core.tests\bin\release\net8.0\dustbuster.core.tests.dll" id="eb7287ed-fa6d-776b-78b3-a27b48bcf9d8">
+      <Execution id="47b35d0f-9f2c-4931-8076-f9b1fbb28e7c" />
+      <TestMethod codeBase="D:\a\DustBuster-Windows\DustBuster-Windows\tests\DustBuster.Core.Tests\bin\Release\net8.0\DustBuster.Core.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="DustBuster.Core.Tests.FixtureTests" name="FixtureRoundTripsThroughJson" />
+    </UnitTest>
+    <UnitTest name="DustBuster.Core.Tests.PathClassifierTests.KindsFollowKnownFolders" storage="d:\a\dustbuster-windows\dustbuster-windows\tests\dustbuster.core.tests\bin\release\net8.0\dustbuster.core.tests.dll" id="a628db80-8c94-eadc-2c34-1a481e32ba86">
+      <Execution id="d4271b97-541f-493f-b083-307d4da76060" />
+      <TestMethod codeBase="D:\a\DustBuster-Windows\DustBuster-Windows\tests\DustBuster.Core.Tests\bin\Release\net8.0\DustBuster.Core.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="DustBuster.Core.Tests.PathClassifierTests" name="KindsFollowKnownFolders" />
+    </UnitTest>
+    <UnitTest name="DustBuster.Core.Tests.FixtureTests.FixtureRoundTripsThroughJson(fileName: &quot;notion.json&quot;)" storage="d:\a\dustbuster-windows\dustbuster-windows\tests\dustbuster.core.tests\bin\release\net8.0\dustbuster.core.tests.dll" id="fe12a85f-1bfa-014f-0fe9-43ece65aed98">
+      <Execution id="4894bb1d-2b6b-4c21-b515-66614ad8f97c" />
+      <TestMethod codeBase="D:\a\DustBuster-Windows\DustBuster-Windows\tests\DustBuster.Core.Tests\bin\Release\net8.0\DustBuster.Core.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="DustBuster.Core.Tests.FixtureTests" name="FixtureRoundTripsThroughJson" />
+    </UnitTest>
+    <UnitTest name="DustBuster.Core.Tests.VirtualFileSystemTests.RegistryKeysBehaveLikeDirectoriesAndValuesLikeFiles" storage="d:\a\dustbuster-windows\dustbuster-windows\tests\dustbuster.core.tests\bin\release\net8.0\dustbuster.core.tests.dll" id="952108c4-30ab-2c55-9db3-523284219cfd">
+      <Execution id="200b578e-b85b-4af5-98d4-d9bb20a9574b" />
+      <TestMethod codeBase="D:\a\DustBuster-Windows\DustBuster-Windows\tests\DustBuster.Core.Tests\bin\Release\net8.0\DustBuster.Core.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="DustBuster.Core.Tests.VirtualFileSystemTests" name="RegistryKeysBehaveLikeDirectoriesAndValuesLikeFiles" />
+    </UnitTest>
+    <UnitTest name="DustBuster.Core.Tests.PathClassifierTests.SystemLocationsRequireTheOption" storage="d:\a\dustbuster-windows\dustbuster-windows\tests\dustbuster.core.tests\bin\release\net8.0\dustbuster.core.tests.dll" id="2c7a71e6-3f60-693f-0ac3-e671de226952">
+      <Execution id="7ceab367-be79-42f6-b233-0e98d367e32b" />
+      <TestMethod codeBase="D:\a\DustBuster-Windows\DustBuster-Windows\tests\DustBuster.Core.Tests\bin\Release\net8.0\DustBuster.Core.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="DustBuster.Core.Tests.PathClassifierTests" name="SystemLocationsRequireTheOption" />
+    </UnitTest>
+    <UnitTest name="DustBuster.Core.Tests.SearchTermsTests.PlainUninstallKeyNamesAreNotIdentifiers" storage="d:\a\dustbuster-windows\dustbuster-windows\tests\dustbuster.core.tests\bin\release\net8.0\dustbuster.core.tests.dll" id="70d105ce-9463-1c77-f234-8ba0803d7087">
+      <Execution id="4212d5b2-ca60-4628-8c30-4d8d7328c720" />
+      <TestMethod codeBase="D:\a\DustBuster-Windows\DustBuster-Windows\tests\DustBuster.Core.Tests\bin\Release\net8.0\DustBuster.Core.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="DustBuster.Core.Tests.SearchTermsTests" name="PlainUninstallKeyNamesAreNotIdentifiers" />
+    </UnitTest>
+    <UnitTest name="DustBuster.Core.Tests.PathUtilTests.RelativeAndUnderAreCaseInsensitive" storage="d:\a\dustbuster-windows\dustbuster-windows\tests\dustbuster.core.tests\bin\release\net8.0\dustbuster.core.tests.dll" id="d933d9e6-f007-70d7-3775-cd8a170ee363">
+      <Execution id="b257b056-ae84-4f50-ae3d-abf85df957fe" />
+      <TestMethod codeBase="D:\a\DustBuster-Windows\DustBuster-Windows\tests\DustBuster.Core.Tests\bin\Release\net8.0\DustBuster.Core.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="DustBuster.Core.Tests.PathUtilTests" name="RelativeAndUnderAreCaseInsensitive" />
+    </UnitTest>
+    <UnitTest name="DustBuster.Core.Tests.SearchTermsTests.MultiWordNameGetsBothTokenSetAndSquashedVariant" storage="d:\a\dustbuster-windows\dustbuster-windows\tests\dustbuster.core.tests\bin\release\net8.0\dustbuster.core.tests.dll" id="44b16a8f-ffe8-309d-7a4c-ceb93efa88ed">
+      <Execution id="97b7ea68-4c33-4b5c-94a3-57918b2a3905" />
+      <TestMethod codeBase="D:\a\DustBuster-Windows\DustBuster-Windows\tests\DustBuster.Core.Tests\bin\Release\net8.0\DustBuster.Core.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="DustBuster.Core.Tests.SearchTermsTests" name="MultiWordNameGetsBothTokenSetAndSquashedVariant" />
+    </UnitTest>
+    <UnitTest name="DustBuster.Core.Tests.VirtualFileSystemTests.DirectoriesFilesAndCanonicalCase" storage="d:\a\dustbuster-windows\dustbuster-windows\tests\dustbuster.core.tests\bin\release\net8.0\dustbuster.core.tests.dll" id="00fe0ba5-a2cf-a86a-3e14-daedaef58e9d">
+      <Execution id="e7785a6c-4ec2-47c8-b08a-6eaf280f61a3" />
+      <TestMethod codeBase="D:\a\DustBuster-Windows\DustBuster-Windows\tests\DustBuster.Core.Tests\bin\Release\net8.0\DustBuster.Core.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="DustBuster.Core.Tests.VirtualFileSystemTests" name="DirectoriesFilesAndCanonicalCase" />
+    </UnitTest>
+    <UnitTest name="DustBuster.Core.Tests.FixtureTests.FixturePasses(fileName: &quot;vlc.json&quot;)" storage="d:\a\dustbuster-windows\dustbuster-windows\tests\dustbuster.core.tests\bin\release\net8.0\dustbuster.core.tests.dll" id="5cd2239a-0647-54d6-40ea-561dbd470b25">
+      <Execution id="46d3734a-f52a-46cf-ac59-94658197a4ba" />
+      <TestMethod codeBase="D:\a\DustBuster-Windows\DustBuster-Windows\tests\DustBuster.Core.Tests\bin\Release\net8.0\DustBuster.Core.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="DustBuster.Core.Tests.FixtureTests" name="FixturePasses" />
+    </UnitTest>
+    <UnitTest name="DustBuster.Core.Tests.FixtureTests.FixturePasses(fileName: &quot;google-chrome.json&quot;)" storage="d:\a\dustbuster-windows\dustbuster-windows\tests\dustbuster.core.tests\bin\release\net8.0\dustbuster.core.tests.dll" id="279844a6-43cd-f769-d43b-06c01ed4ee84">
+      <Execution id="41714536-2f44-4a30-a9fc-25e566219f68" />
+      <TestMethod codeBase="D:\a\DustBuster-Windows\DustBuster-Windows\tests\DustBuster.Core.Tests\bin\Release\net8.0\DustBuster.Core.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="DustBuster.Core.Tests.FixtureTests" name="FixturePasses" />
+    </UnitTest>
+    <UnitTest name="DustBuster.Core.Tests.CleanupPolicyTests.AppCachesAreFoundButBrowsersAndUserDataAreNot" storage="d:\a\dustbuster-windows\dustbuster-windows\tests\dustbuster.core.tests\bin\release\net8.0\dustbuster.core.tests.dll" id="51cd5d18-9f6e-405d-e7af-89cf23dc2262">
+      <Execution id="be820094-c344-48e1-ae83-67b47bcc7821" />
+      <TestMethod codeBase="D:\a\DustBuster-Windows\DustBuster-Windows\tests\DustBuster.Core.Tests\bin\Release\net8.0\DustBuster.Core.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="DustBuster.Core.Tests.CleanupPolicyTests" name="AppCachesAreFoundButBrowsersAndUserDataAreNot" />
+    </UnitTest>
+    <UnitTest name="DustBuster.Core.Tests.FixtureTests.CaptureProducesReplayableFixture" storage="d:\a\dustbuster-windows\dustbuster-windows\tests\dustbuster.core.tests\bin\release\net8.0\dustbuster.core.tests.dll" id="65c357de-963b-9e9b-099e-35526143da75">
+      <Execution id="58288079-aa6a-4c29-94d2-b1fcac87cb05" />
+      <TestMethod codeBase="D:\a\DustBuster-Windows\DustBuster-Windows\tests\DustBuster.Core.Tests\bin\Release\net8.0\DustBuster.Core.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="DustBuster.Core.Tests.FixtureTests" name="CaptureProducesReplayableFixture" />
+    </UnitTest>
+    <UnitTest name="DustBuster.Core.Tests.SearchTermsTests.IdentifiersMatchExactlyOrWithDotUnderscoreSuffix" storage="d:\a\dustbuster-windows\dustbuster-windows\tests\dustbuster.core.tests\bin\release\net8.0\dustbuster.core.tests.dll" id="fc9f5ee0-cdb3-28d2-01b0-ba019970c968">
+      <Execution id="c33b53e1-cdfa-4477-a191-10cd6af6ff67" />
+      <TestMethod codeBase="D:\a\DustBuster-Windows\DustBuster-Windows\tests\DustBuster.Core.Tests\bin\Release\net8.0\DustBuster.Core.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="DustBuster.Core.Tests.SearchTermsTests" name="IdentifiersMatchExactlyOrWithDotUnderscoreSuffix" />
+    </UnitTest>
+    <UnitTest name="DustBuster.Core.Tests.SearchTermsTests.CleanNameDropsVersionArchAndParentheses" storage="d:\a\dustbuster-windows\dustbuster-windows\tests\dustbuster.core.tests\bin\release\net8.0\dustbuster.core.tests.dll" id="d8f5e625-6973-d6ef-2990-54091e4c35de">
+      <Execution id="1ab5d18a-e774-49ed-9c9f-25e488794e2f" />
+      <TestMethod codeBase="D:\a\DustBuster-Windows\DustBuster-Windows\tests\DustBuster.Core.Tests\bin\Release\net8.0\DustBuster.Core.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="DustBuster.Core.Tests.SearchTermsTests" name="CleanNameDropsVersionArchAndParentheses" />
+    </UnitTest>
+    <UnitTest name="DustBuster.Core.Tests.SearchTermsTests.WeakMatchOnlyLooksAtOwnName" storage="d:\a\dustbuster-windows\dustbuster-windows\tests\dustbuster.core.tests\bin\release\net8.0\dustbuster.core.tests.dll" id="253a6a2d-f7e0-8977-a212-585721c7ce30">
+      <Execution id="1f2c9f63-87e9-4cd6-a364-94406ff7a9e9" />
+      <TestMethod codeBase="D:\a\DustBuster-Windows\DustBuster-Windows\tests\DustBuster.Core.Tests\bin\Release\net8.0\DustBuster.Core.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="DustBuster.Core.Tests.SearchTermsTests" name="WeakMatchOnlyLooksAtOwnName" />
+    </UnitTest>
+    <UnitTest name="DustBuster.Core.Tests.SearchTermsTests.MicrosoftFoldersNeverMatchForeignApps" storage="d:\a\dustbuster-windows\dustbuster-windows\tests\dustbuster.core.tests\bin\release\net8.0\dustbuster.core.tests.dll" id="2d60f2c1-ff22-a0ad-fb0e-238430f41a12">
+      <Execution id="441059a0-a5bd-4d61-a4ba-9de5739de00c" />
+      <TestMethod codeBase="D:\a\DustBuster-Windows\DustBuster-Windows\tests\DustBuster.Core.Tests\bin\Release\net8.0\DustBuster.Core.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="DustBuster.Core.Tests.SearchTermsTests" name="MicrosoftFoldersNeverMatchForeignApps" />
+    </UnitTest>
+    <UnitTest name="DustBuster.Core.Tests.SearchTermsTests.GenericAndShortNamesProduceNoTokenSets" storage="d:\a\dustbuster-windows\dustbuster-windows\tests\dustbuster.core.tests\bin\release\net8.0\dustbuster.core.tests.dll" id="184a2f62-e908-d002-9a15-af7ac6c15876">
+      <Execution id="5b806727-84b5-47bb-8fd1-a7ad9a5f768b" />
+      <TestMethod codeBase="D:\a\DustBuster-Windows\DustBuster-Windows\tests\DustBuster.Core.Tests\bin\Release\net8.0\DustBuster.Core.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="DustBuster.Core.Tests.SearchTermsTests" name="GenericAndShortNamesProduceNoTokenSets" />
+    </UnitTest>
+    <UnitTest name="DustBuster.Core.Tests.FixtureTests.FixturePasses(fileName: &quot;notion.json&quot;)" storage="d:\a\dustbuster-windows\dustbuster-windows\tests\dustbuster.core.tests\bin\release\net8.0\dustbuster.core.tests.dll" id="e46226f9-56b0-02c2-ed8c-43780912c915">
+      <Execution id="2edec2a2-d7bf-4619-9aa2-82f01643739f" />
+      <TestMethod codeBase="D:\a\DustBuster-Windows\DustBuster-Windows\tests\DustBuster.Core.Tests\bin\Release\net8.0\DustBuster.Core.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="DustBuster.Core.Tests.FixtureTests" name="FixturePasses" />
+    </UnitTest>
+    <UnitTest name="DustBuster.Core.Tests.SearchTermsTests.ExecutableNameIsAnExtraNameVariant" storage="d:\a\dustbuster-windows\dustbuster-windows\tests\dustbuster.core.tests\bin\release\net8.0\dustbuster.core.tests.dll" id="fa283d6a-916a-20c8-ddfa-ceecc2bc99e1">
+      <Execution id="1b60a29c-4cc2-4638-9631-5aaac22e7a41" />
+      <TestMethod codeBase="D:\a\DustBuster-Windows\DustBuster-Windows\tests\DustBuster.Core.Tests\bin\Release\net8.0\DustBuster.Core.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="DustBuster.Core.Tests.SearchTermsTests" name="ExecutableNameIsAnExtraNameVariant" />
+    </UnitTest>
+    <UnitTest name="DustBuster.Core.Tests.GlobTests.WildcardMatching" storage="d:\a\dustbuster-windows\dustbuster-windows\tests\dustbuster.core.tests\bin\release\net8.0\dustbuster.core.tests.dll" id="2722f048-f3c4-60ab-19eb-4cb44cb67f3e">
+      <Execution id="6ff940ec-4c76-4fdf-a23f-b6e0922b304b" />
+      <TestMethod codeBase="D:\a\DustBuster-Windows\DustBuster-Windows\tests\DustBuster.Core.Tests\bin\Release\net8.0\DustBuster.Core.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="DustBuster.Core.Tests.GlobTests" name="WildcardMatching" />
+    </UnitTest>
+    <UnitTest name="DustBuster.Core.Tests.SearchTermsTests.VendorTokensAndNameEqualsVendor" storage="d:\a\dustbuster-windows\dustbuster-windows\tests\dustbuster.core.tests\bin\release\net8.0\dustbuster.core.tests.dll" id="6a1f862d-cd15-6dd1-92d9-3b2207fc5bfa">
+      <Execution id="7beecc2c-997a-4ddb-9ac1-00a5517e389d" />
+      <TestMethod codeBase="D:\a\DustBuster-Windows\DustBuster-Windows\tests\DustBuster.Core.Tests\bin\Release\net8.0\DustBuster.Core.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="DustBuster.Core.Tests.SearchTermsTests" name="VendorTokensAndNameEqualsVendor" />
+    </UnitTest>
+    <UnitTest name="DustBuster.Core.Tests.KnownFoldersTests.ExpandAndContractRoundTrip" storage="d:\a\dustbuster-windows\dustbuster-windows\tests\dustbuster.core.tests\bin\release\net8.0\dustbuster.core.tests.dll" id="325eb0cf-13eb-dba3-4240-bc7d97464fc4">
+      <Execution id="e8b9bf6d-8843-446b-a073-c84468f6d351" />
+      <TestMethod codeBase="D:\a\DustBuster-Windows\DustBuster-Windows\tests\DustBuster.Core.Tests\bin\Release\net8.0\DustBuster.Core.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="DustBuster.Core.Tests.KnownFoldersTests" name="ExpandAndContractRoundTrip" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="44b16a8f-ffe8-309d-7a4c-ceb93efa88ed" executionId="97b7ea68-4c33-4b5c-94a3-57918b2a3905" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="566ed307-dc08-b57a-9fbf-882e04f4605f" executionId="e3b15b54-146a-4d6d-9fb4-0ce7e5fb6013" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d8f5e625-6973-d6ef-2990-54091e4c35de" executionId="1ab5d18a-e774-49ed-9c9f-25e488794e2f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="00fe0ba5-a2cf-a86a-3e14-daedaef58e9d" executionId="e7785a6c-4ec2-47c8-b08a-6eaf280f61a3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="eb7287ed-fa6d-776b-78b3-a27b48bcf9d8" executionId="47b35d0f-9f2c-4931-8076-f9b1fbb28e7c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b203f0fe-ccc9-cbca-98a3-0b26bafb9583" executionId="d78181cc-16e4-4d8f-9955-257fb6a246f5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f637823b-9654-6108-98b3-dafbc2b06a96" executionId="b02098ac-d1f4-41bf-a483-73d291535284" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6a1f862d-cd15-6dd1-92d9-3b2207fc5bfa" executionId="7beecc2c-997a-4ddb-9ac1-00a5517e389d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="325eb0cf-13eb-dba3-4240-bc7d97464fc4" executionId="e8b9bf6d-8843-446b-a073-c84468f6d351" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="fc9f5ee0-cdb3-28d2-01b0-ba019970c968" executionId="c33b53e1-cdfa-4477-a191-10cd6af6ff67" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e46226f9-56b0-02c2-ed8c-43780912c915" executionId="2edec2a2-d7bf-4619-9aa2-82f01643739f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6ef020be-3541-8099-96f6-c5dbe7362772" executionId="a7c02ce8-6299-48d6-8499-fdce0e7c5bc5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9bc72fa5-2285-19e5-3d2c-d36359f9aa44" executionId="c207490e-9fb7-4bb5-b4a6-2f062e6700d0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="fe12a85f-1bfa-014f-0fe9-43ece65aed98" executionId="4894bb1d-2b6b-4c21-b515-66614ad8f97c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="952108c4-30ab-2c55-9db3-523284219cfd" executionId="200b578e-b85b-4af5-98d4-d9bb20a9574b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="253a6a2d-f7e0-8977-a212-585721c7ce30" executionId="1f2c9f63-87e9-4cd6-a364-94406ff7a9e9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2c7a71e6-3f60-693f-0ac3-e671de226952" executionId="7ceab367-be79-42f6-b233-0e98d367e32b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="724d433e-5a89-5124-7e20-36bd7b6d682d" executionId="1af92cb8-2a0e-4310-808e-6db0bd22f8ee" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="70d105ce-9463-1c77-f234-8ba0803d7087" executionId="4212d5b2-ca60-4628-8c30-4d8d7328c720" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4ccd87fc-8347-e233-27ff-749f5da14400" executionId="48c85393-963a-4d99-a9af-019bd955c688" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ff86b13b-788c-ba8d-2770-98a175354ed2" executionId="4aa5b791-7aba-4768-ab34-dbd906720d9b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2d60f2c1-ff22-a0ad-fb0e-238430f41a12" executionId="441059a0-a5bd-4d61-a4ba-9de5739de00c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="fa283d6a-916a-20c8-ddfa-ceecc2bc99e1" executionId="1b60a29c-4cc2-4638-9631-5aaac22e7a41" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="65c357de-963b-9e9b-099e-35526143da75" executionId="58288079-aa6a-4c29-94d2-b1fcac87cb05" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5b4e2ec9-0707-845f-1627-b4ea6a61c0a2" executionId="bca6ad92-ea4f-448a-87ce-13ec10e2ae7a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2722f048-f3c4-60ab-19eb-4cb44cb67f3e" executionId="6ff940ec-4c76-4fdf-a23f-b6e0922b304b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="32f1853d-0d8c-2cbb-f6a7-d6ec1cec55db" executionId="c50086c6-cfe5-45e3-a2f6-5cf97dd66ed5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a628db80-8c94-eadc-2c34-1a481e32ba86" executionId="d4271b97-541f-493f-b083-307d4da76060" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8f9fed06-5764-b025-e397-4913e99a2845" executionId="7eaf43d1-84f2-4264-a02b-747cca6b4c72" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="279844a6-43cd-f769-d43b-06c01ed4ee84" executionId="41714536-2f44-4a30-a9fc-25e566219f68" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="51cd5d18-9f6e-405d-e7af-89cf23dc2262" executionId="be820094-c344-48e1-ae83-67b47bcc7821" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="184a2f62-e908-d002-9a15-af7ac6c15876" executionId="5b806727-84b5-47bb-8fd1-a7ad9a5f768b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5cd2239a-0647-54d6-40ea-561dbd470b25" executionId="46d3734a-f52a-46cf-ac59-94658197a4ba" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8f9ac874-b840-8de9-05b5-518cd8ffe1e4" executionId="1f809e2e-247e-494e-84b2-640487c1d967" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="040a6f9b-3b6d-f0ee-2229-aee62e9c2ad3" executionId="0deccff6-214e-4654-9e30-1ea675eb9da4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="06ef7a8d-5be8-bc80-ae9b-4f50a66605fc" executionId="efe27240-3329-4447-be25-6536077a82a5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d534b19f-d9aa-5518-dac9-92eaa8dc049f" executionId="00b4b5dd-3493-4791-b698-1ce7a7ad18fe" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6432e554-9d7a-8adb-4b6e-41a88b66bd62" executionId="037c73a6-09a0-46ea-9d56-19778e5f3b84" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e88ec1b7-89b0-2e96-de38-8a3c7c178477" executionId="7df6b2f0-e211-4419-8d9e-123da86c21d3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d933d9e6-f007-70d7-3775-cd8a170ee363" executionId="b257b056-ae84-4f50-ae3d-abf85df957fe" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="da1f405d-4612-b204-1911-c6044ef7b1ea" executionId="d038e2c9-c5fa-4e08-b2e3-bdba73ab0207" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5fed3c37-7c68-7a64-5c33-8217d8c32c13" executionId="f553e052-250c-4b0d-8a66-0a3127963c71" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Completed">
+    <Counters total="42" executed="42" passed="42" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <Output>
+      <StdOut>[xUnit.net 00:00:00.00] xUnit.net VSTest Adapter v2.8.2+699d445a1a (64-bit .NET 8.0.33)&#xD;
+[xUnit.net 00:00:00.05]   Discovering: DustBuster.Core.Tests&#xD;
+[xUnit.net 00:00:00.09]   Discovered:  DustBuster.Core.Tests&#xD;
+[xUnit.net 00:00:00.09]   Starting:    DustBuster.Core.Tests&#xD;
+[xUnit.net 00:00:00.25]   Finished:    DustBuster.Core.Tests&#xD;
+</StdOut>
+    </Output>
+  </ResultSummary>
+</TestRun>
