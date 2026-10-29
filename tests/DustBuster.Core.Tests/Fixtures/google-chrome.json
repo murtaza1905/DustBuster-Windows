@@ -1,0 +1,94 @@
+{
+  "schema": 1,
+  "name": "Google Chrome — makine geneli kurulum, satıcı klasörü (Google) paylaşılır, Chrome Beta ve Google Update başka bileşenlerdir",
+  "status": "curated",
+  "notes": "Sentetik vaka; sistem taraması açık. Satıcı klasörü ve güncelleyici hizmeti listelenmemeli, Chrome'un hizmeti ve HKLM anahtarları listelenmeli.",
+  "home": "C:\\Users\\test",
+  "identity": {
+    "name": "Google Chrome",
+    "kind": "win32",
+    "publisher": "Google LLC",
+    "installLocation": "%PROGRAMFILES%\\Google\\Chrome\\Application",
+    "executablePath": "%PROGRAMFILES%\\Google\\Chrome\\Application\\chrome.exe",
+    "productName": "Google Chrome",
+    "companyName": "Google LLC",
+    "uninstallKeyPath": "HKLM:\\Software\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\Google Chrome",
+    "uninstallString": "\"%PROGRAMFILES%\\Google\\Chrome\\Application\\120.0.0.0\\Installer\\setup.exe\" --uninstall --system-level",
+    "quietUninstallString": null,
+    "productCode": null,
+    "packageFamilyName": null,
+    "packageFullName": null,
+    "extraIdentifiers": [],
+    "helperExecutables": []
+  },
+  "options": {
+    "includeSystemLocations": true,
+    "includeAggressiveLocations": false,
+    "useDatabase": true
+  },
+  "tree": [
+    "%LOCALAPPDATA%\\Google\\Chrome\\User Data\\Local State",
+    "%LOCALAPPDATA%\\Google\\Chrome\\User Data\\Default\\Cache\\",
+    "%LOCALAPPDATA%\\Google\\Chrome Beta\\User Data\\Local State",
+    "%LOCALAPPDATA%\\Google\\Update\\",
+    "%LOCALAPPDATA%\\Google\\CrashReports\\",
+    "%LOCALAPPDATA%\\Google\\Software Reporter Tool\\",
+    "%PROGRAMFILES%\\Google\\Chrome\\Application\\chrome.exe",
+    "%PROGRAMFILES%\\Google\\Chrome\\Application\\120.0.0.0\\elevation_service.exe",
+    "%PROGRAMFILES(X86)%\\Google\\Update\\GoogleUpdate.exe",
+    "%PROGRAMDATA%\\Google\\",
+    "%PROGRAMDATA%\\Microsoft\\Windows\\Start Menu\\Programs\\Google Chrome.lnk",
+    "%PUBLIC%\\Desktop\\Google Chrome.lnk",
+    "%WINDIR%\\System32\\Tasks\\GoogleUpdateTaskMachineCore",
+    "HKCU:\\Software\\Google\\Chrome\\",
+    "HKCU:\\Software\\Google\\Update\\",
+    "HKLM:\\Software\\Google\\Chrome\\",
+    "HKLM:\\Software\\WOW6432Node\\Google\\Update\\",
+    "HKLM:\\Software\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\Google Chrome\\",
+    "HKLM:\\SYSTEM\\CurrentControlSet\\Services\\GoogleChromeElevationService\\",
+    "HKLM:\\SYSTEM\\CurrentControlSet\\Services\\gupdate\\"
+  ],
+  "emptyDirs": [],
+  "reparsePoints": [],
+  "shortcutTargets": {
+    "%PROGRAMDATA%\\Microsoft\\Windows\\Start Menu\\Programs\\Google Chrome.lnk": "%PROGRAMFILES%\\Google\\Chrome\\Application\\chrome.exe",
+    "%PUBLIC%\\Desktop\\Google Chrome.lnk": "%PROGRAMFILES%\\Google\\Chrome\\Application\\chrome.exe"
+  },
+  "runCommands": null,
+  "taskExecutables": {
+    "%WINDIR%\\System32\\Tasks\\GoogleUpdateTaskMachineCore": "%PROGRAMFILES(X86)%\\Google\\Update\\GoogleUpdate.exe"
+  },
+  "serviceExecutables": {
+    "HKLM:\\SYSTEM\\CurrentControlSet\\Services\\GoogleChromeElevationService": "%PROGRAMFILES%\\Google\\Chrome\\Application\\120.0.0.0\\elevation_service.exe",
+    "HKLM:\\SYSTEM\\CurrentControlSet\\Services\\gupdate": "%PROGRAMFILES(X86)%\\Google\\Update\\GoogleUpdate.exe"
+  },
+  "expect": {
+    "strong": [
+      "%LOCALAPPDATA%\\Google\\Chrome",
+      "%PROGRAMFILES%\\Google\\Chrome",
+      "%PROGRAMDATA%\\Microsoft\\Windows\\Start Menu\\Programs\\Google Chrome.lnk",
+      "%PUBLIC%\\Desktop\\Google Chrome.lnk",
+      "HKCU:\\Software\\Google\\Chrome",
+      "HKLM:\\Software\\Google\\Chrome",
+      "HKLM:\\Software\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\Google Chrome",
+      "HKLM:\\SYSTEM\\CurrentControlSet\\Services\\GoogleChromeElevationService"
+    ],
+    "weak": [],
+    "absent": [
+      "%LOCALAPPDATA%\\Google",
+      "%LOCALAPPDATA%\\Google\\Chrome Beta",
+      "%LOCALAPPDATA%\\Google\\Update",
+      "%LOCALAPPDATA%\\Google\\CrashReports",
+      "%LOCALAPPDATA%\\Google\\Software Reporter Tool",
+      "%PROGRAMFILES(X86)%\\Google\\Update",
+      "%PROGRAMFILES(X86)%\\Google",
+      "%PROGRAMDATA%\\Google",
+      "%WINDIR%\\System32\\Tasks\\GoogleUpdateTaskMachineCore",
+      "HKCU:\\Software\\Google",
+      "HKCU:\\Software\\Google\\Update",
+      "HKLM:\\Software\\WOW6432Node\\Google\\Update",
+      "HKLM:\\SYSTEM\\CurrentControlSet\\Services\\gupdate"
+    ],
+    "databaseIds": []
+  }
+}

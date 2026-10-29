@@ -1,0 +1,29 @@
+# .NET
+bin/
+obj/
+*.user
+*.suo
+.vs/
+.vscode/
+*.swp
+TestResults/
+artifacts/
+
+# Derleme ve paket çıktıları
+build/
+dist/
+releases/
+*.log
+*.zip
+*.msix
+*.exe
+
+# Yerel araçlar
+.tools/
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# macOS
+.DS_Store

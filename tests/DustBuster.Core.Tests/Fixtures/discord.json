@@ -1,0 +1,75 @@
+{
+  "schema": 1,
+  "name": "Discord — Squirrel kurulumu: conditions.json kuralı, PTB kanalı hariç tutulur, Update.exe başlangıç girdisi ve satıcı adlı Başlat Menüsü klasörü",
+  "status": "curated",
+  "notes": "Sentetik vaka. Kurulum klasörü %LOCALAPPDATA%\\Discord uygulamanın kendisidir; SquirrelTemp kuralla zayıf listelenir.",
+  "home": "C:\\Users\\test",
+  "identity": {
+    "name": "Discord",
+    "kind": "win32",
+    "publisher": "Discord Inc.",
+    "installLocation": "%LOCALAPPDATA%\\Discord",
+    "executablePath": "%LOCALAPPDATA%\\Discord\\app-1.0.9035\\Discord.exe",
+    "productName": "Discord",
+    "companyName": "Discord Inc.",
+    "uninstallKeyPath": "HKCU:\\Software\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\Discord",
+    "uninstallString": "%LOCALAPPDATA%\\Discord\\Update.exe --uninstall",
+    "quietUninstallString": "%LOCALAPPDATA%\\Discord\\Update.exe --uninstall -s",
+    "productCode": null,
+    "packageFamilyName": null,
+    "packageFullName": null,
+    "extraIdentifiers": [],
+    "helperExecutables": []
+  },
+  "options": {
+    "includeSystemLocations": false,
+    "includeAggressiveLocations": false,
+    "useDatabase": true
+  },
+  "tree": [
+    "%APPDATA%\\discord\\",
+    "%APPDATA%\\discordptb\\",
+    "%APPDATA%\\Microsoft\\Windows\\Start Menu\\Programs\\Discord Inc\\Discord.lnk",
+    "%LOCALAPPDATA%\\Discord\\Update.exe",
+    "%LOCALAPPDATA%\\Discord\\app-1.0.9035\\Discord.exe",
+    "%LOCALAPPDATA%\\DiscordPTB\\Update.exe",
+    "%LOCALAPPDATA%\\SquirrelTemp\\",
+    "%USERPROFILE%\\Desktop\\Discord.lnk",
+    "HKCU:\\Software\\Discord\\",
+    "HKCU:\\Software\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\Discord\\",
+    "HKCU:\\Software\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\DiscordPTB\\"
+  ],
+  "emptyDirs": [],
+  "reparsePoints": [],
+  "shortcutTargets": {
+    "%APPDATA%\\Microsoft\\Windows\\Start Menu\\Programs\\Discord Inc\\Discord.lnk": "%LOCALAPPDATA%\\Discord\\Update.exe",
+    "%USERPROFILE%\\Desktop\\Discord.lnk": "%LOCALAPPDATA%\\Discord\\Update.exe"
+  },
+  "runCommands": {
+    "HKCU:\\Software\\Microsoft\\Windows\\CurrentVersion\\Run\\Discord": "%LOCALAPPDATA%\\Discord\\Update.exe --processStart Discord.exe",
+    "HKCU:\\Software\\Microsoft\\Windows\\CurrentVersion\\Run\\DiscordPTB": "%LOCALAPPDATA%\\DiscordPTB\\Update.exe --processStart DiscordPTB.exe"
+  },
+  "taskExecutables": null,
+  "serviceExecutables": null,
+  "expect": {
+    "strong": [
+      "%APPDATA%\\discord",
+      "%APPDATA%\\Microsoft\\Windows\\Start Menu\\Programs\\Discord Inc",
+      "%USERPROFILE%\\Desktop\\Discord.lnk",
+      "HKCU:\\Software\\Discord",
+      "HKCU:\\Software\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\Discord",
+      "HKCU:\\Software\\Microsoft\\Windows\\CurrentVersion\\Run\\Discord"
+    ],
+    "weak": [
+      "%LOCALAPPDATA%\\SquirrelTemp"
+    ],
+    "absent": [
+      "%APPDATA%\\discordptb",
+      "%LOCALAPPDATA%\\DiscordPTB",
+      "%APPDATA%\\Microsoft\\Windows\\Start Menu\\Programs\\Discord Inc\\Discord.lnk",
+      "HKCU:\\Software\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\DiscordPTB",
+      "HKCU:\\Software\\Microsoft\\Windows\\CurrentVersion\\Run\\DiscordPTB"
+    ],
+    "databaseIds": []
+  }
+}

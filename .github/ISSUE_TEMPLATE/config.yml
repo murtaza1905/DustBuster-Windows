@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Security issue
+    url: https://github.com/murtaza1905/DustBuster-Windows/blob/main/SECURITY.md
+    about: Please report security problems by email, not in a public issue.

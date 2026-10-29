@@ -1,0 +1,62 @@
+name: Bug report
+description: Something in DustBuster does not work as expected
+title: "[Bug] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting. Please fill in the fields below so the problem can be reproduced.
+  - type: input
+    id: version
+    attributes:
+      label: DustBuster version
+      description: Shown in Settings › About.
+      placeholder: "0.1.0 (1)"
+    validations:
+      required: true
+  - type: input
+    id: windows
+    attributes:
+      label: Windows version and edition
+      description: Settings › System › About, or `winver`.
+      placeholder: "Windows 11 Pro 24H2 (26100)"
+    validations:
+      required: true
+  - type: dropdown
+    id: install
+    attributes:
+      label: How did you install DustBuster?
+      options:
+        - Installer (.exe) from Releases
+        - Portable zip from Releases
+        - Built from source
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. …
+        2. …
+        3. …
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What did you expect to happen?
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: What happened instead?
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs, screenshots or exported reports
+      description: The exported .txt report or JSON test case, screenshots, or the diagnostic log export from Settings (usernames and paths are already sanitized).

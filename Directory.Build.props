@@ -1,0 +1,23 @@
+<Project>
+  <PropertyGroup>
+    <Version>0.1.0</Version>
+    <FileVersion>0.1.0.1</FileVersion>
+    <InformationalVersion>0.1.0 (1)</InformationalVersion>
+    <Authors>Murat Onurcu</Authors>
+    <Company>Murat Onurcu</Company>
+    <Product>DustBuster</Product>
+    <Copyright>Copyright © 2026 Murat Onurcu. MIT License.</Copyright>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <RepositoryUrl>https://github.com/murtaza1905/DustBuster-Windows</RepositoryUrl>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <LangVersion>12</LangVersion>
+    <Deterministic>true</Deterministic>
+    <NeutralLanguage>tr-TR</NeutralLanguage>
+    <SatelliteResourceLanguages>tr;en</SatelliteResourceLanguages>
+    <GenerateDocumentationFile>false</GenerateDocumentationFile>
+    <AnalysisLevel>latest</AnalysisLevel>
+    <EnforceCodeStyleInBuild>false</EnforceCodeStyleInBuild>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+  </PropertyGroup>
+</Project>

@@ -1,0 +1,98 @@
+{
+  "schema": 1,
+  "conditions": [
+    {
+      "id": "vscode",
+      "identifiers": [
+        "{771FD6B0-FA20-440A-A002-3B3BAC16DC50}_is1",
+        "{EA457B21-F73E-494C-ACAB-524FDE069978}_is1"
+      ],
+      "names": [
+        "Microsoft Visual Studio Code",
+        "Visual Studio Code"
+      ],
+      "include": [
+        {
+          "path": "%APPDATA%\\Code",
+          "strength": "strong",
+          "note": "Kullanıcı ayarları, uzantı verisi ve önbellek"
+        },
+        {
+          "path": "%USERPROFILE%\\.vscode",
+          "strength": "strong",
+          "note": "Yüklü uzantılar"
+        },
+        {
+          "path": "%USERPROFILE%\\.vscode-insiders",
+          "strength": "weak",
+          "note": "Insiders sürümünün uzantıları"
+        }
+      ],
+      "exclude": []
+    },
+    {
+      "id": "discord",
+      "identifiers": [
+        "Discord"
+      ],
+      "names": [
+        "Discord"
+      ],
+      "include": [
+        {
+          "path": "%APPDATA%\\discord",
+          "strength": "strong",
+          "note": "Ayarlar ve önbellek"
+        },
+        {
+          "path": "%LOCALAPPDATA%\\Discord",
+          "strength": "strong",
+          "note": "Kurulum ve güncelleyici"
+        },
+        {
+          "path": "%LOCALAPPDATA%\\SquirrelTemp",
+          "strength": "weak",
+          "note": "Squirrel güncelleyici geçici klasörü, başka uygulamalar da kullanır"
+        }
+      ],
+      "exclude": [
+        "%APPDATA%\\discordptb*",
+        "%APPDATA%\\discordcanary*",
+        "%LOCALAPPDATA%\\DiscordPTB*",
+        "%LOCALAPPDATA%\\DiscordCanary*"
+      ]
+    },
+    {
+      "id": "docker-desktop",
+      "identifiers": [
+        "Docker Desktop"
+      ],
+      "names": [
+        "Docker Desktop"
+      ],
+      "include": [
+        {
+          "path": "%APPDATA%\\Docker",
+          "strength": "strong",
+          "note": "Ayarlar"
+        },
+        {
+          "path": "%APPDATA%\\Docker Desktop",
+          "strength": "strong",
+          "note": "Uygulama verisi"
+        },
+        {
+          "path": "%LOCALAPPDATA%\\Docker",
+          "strength": "strong",
+          "note": "Günlükler ve önbellek"
+        },
+        {
+          "path": "%USERPROFILE%\\.docker",
+          "strength": "weak",
+          "note": "Komut satırı yapılandırması, Docker CLI de kullanır"
+        }
+      ],
+      "exclude": []
+    }
+  ]
+}

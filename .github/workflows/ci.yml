@@ -1,0 +1,149 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  core-tests-windows:
+    name: Core tests (Windows)
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: 8.0.x
+      - name: Restore
+        shell: pwsh
+        run: dotnet restore DustBuster.sln --nologo
+      - name: Build
+        shell: pwsh
+        run: |
+          dotnet build DustBuster.sln -c Release --no-restore --nologo 2>&1 | Tee-Object -FilePath build.log
+          $status = $LASTEXITCODE
+          Select-String -Path build.log -Pattern 'error CS|error MSB|error NU' | Select-Object -First 40 | ForEach-Object { Write-Host "::error::$($_.Line.Trim())" }
+          if ($status -ne 0) { exit $status }
+      - name: Test
+        shell: pwsh
+        run: |
+          dotnet test DustBuster.sln -c Release --no-build --nologo --logger "console;verbosity=normal" --logger "trx;LogFileName=core-tests.trx" --results-directory TestResults 2>&1 | Tee-Object -FilePath core-tests.log
+          $status = $LASTEXITCODE
+          $summary = (Select-String -Path core-tests.log -Pattern '^(Passed!|Failed!)' | Select-Object -Last 1).Line
+          "### Core tests (Windows)`n$summary" | Out-File -FilePath $env:GITHUB_STEP_SUMMARY -Append -Encoding utf8
+          if ($status -ne 0) {
+            Select-String -Path core-tests.log -Pattern '^\s*(Failed |Error Message:|Assert\.|Expected:|Actual:|GÜÇLÜ|ZAYIF|Yanlış güç|Listelenmemesi|Eşleşmeyen)' | Select-Object -First 60 | ForEach-Object { Write-Host "::error::$($_.Line.Trim())" }
+            exit $status
+          }
+      - name: Publish logs to ci-logs branch
+        if: always()
+        continue-on-error: true
+        shell: pwsh
+        env:
+          TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          New-Item -ItemType Directory -Force -Path cilogs | Out-Null
+          foreach ($f in 'build.log', 'core-tests.log') { if (Test-Path $f) { Copy-Item $f cilogs\ } }
+          if (Test-Path TestResults) { Copy-Item TestResults cilogs\TestResults -Recurse }
+          "run=${{ github.run_id }} sha=${{ github.sha }} job=core-tests-windows date=$([DateTime]::UtcNow.ToString('o'))" | Out-File cilogs\RUN.txt -Encoding utf8
+          Set-Location cilogs
+          git init -q
+          git checkout -q -b ci-logs-core-tests
+          git config user.name "ci"
+          git config user.email "ci@users.noreply.github.com"
+          git add -A
+          git commit -q -m "core-tests log for ${{ github.sha }}"
+          git push -q -f "https://x-access-token:$env:TOKEN@github.com/${{ github.repository }}.git" ci-logs-core-tests:ci-logs-core-tests
+      - name: Upload test results
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: core-test-results-windows
+          path: |
+            TestResults
+            core-tests.log
+            build.log
+          if-no-files-found: ignore
+
+  core-tests-linux:
+    name: Core tests (Linux, quick check)
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: 8.0.x
+      - name: Build
+        run: |
+          set +e
+          dotnet build DustBuster.sln -c Release --nologo 2>&1 | tee build.log
+          status=${PIPESTATUS[0]}
+          grep -E "error CS|error MSB|error NU" build.log | head -40 | while IFS= read -r line; do echo "::error::${line}"; done
+          exit $status
+      - name: Test
+        run: |
+          set +e
+          dotnet test DustBuster.sln -c Release --no-build --nologo --logger "console;verbosity=normal" 2>&1 | tee core-tests.log
+          status=${PIPESTATUS[0]}
+          summary=$(grep -E "^(Passed!|Failed!)" core-tests.log | tail -1)
+          echo "### Core tests (Linux)" >> "$GITHUB_STEP_SUMMARY"
+          echo "${summary:-no summary line}" >> "$GITHUB_STEP_SUMMARY"
+          if [ "$status" != "0" ]; then
+            grep -nE "^\s*(Failed |Error Message:|Assert\.|Expected:|Actual:|GÜÇLÜ|ZAYIF|Yanlış güç|Listelenmemesi|Eşleşmeyen)" core-tests.log | head -60 | while IFS= read -r line; do echo "::error::${line}"; done
+          fi
+          exit $status
+
+  app-build:
+    name: Build app (self-contained, unsigned)
+    runs-on: windows-latest
+    needs: core-tests-windows
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: 8.0.x
+      - name: Check for the application project
+        id: app
+        shell: pwsh
+        run: |
+          $exists = Test-Path 'src\DustBuster.App\DustBuster.App.csproj'
+          "exists=$($exists.ToString().ToLower())" | Out-File -FilePath $env:GITHUB_OUTPUT -Append
+          if (-not $exists) { Write-Host 'Uygulama projesi henüz yok; bu iş atlandı.' }
+      - name: Build and publish
+        if: steps.app.outputs.exists == 'true'
+        shell: pwsh
+        run: |
+          .\scripts\build.ps1
+          if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
+          Select-String -Path build.log -Pattern 'error CS|error MSB|error NU|error APPX|error WMC' | Select-Object -First 40 | ForEach-Object { Write-Host "::error::$($_.Line.Trim())" }
+      - name: Publish log to ci-logs branch
+        if: always() && steps.app.outputs.exists == 'true'
+        continue-on-error: true
+        shell: pwsh
+        env:
+          TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          New-Item -ItemType Directory -Force -Path cilogs | Out-Null
+          if (Test-Path build.log) { Copy-Item build.log cilogs\ } else { 'no log' | Out-File cilogs\build.log }
+          "run=${{ github.run_id }} sha=${{ github.sha }} job=app-build date=$([DateTime]::UtcNow.ToString('o'))" | Out-File cilogs\RUN.txt -Encoding utf8
+          Set-Location cilogs
+          git init -q
+          git checkout -q -b ci-logs-app-build
+          git config user.name "ci"
+          git config user.email "ci@users.noreply.github.com"
+          git add -A
+          git commit -q -m "app-build log for ${{ github.sha }}"
+          git push -q -f "https://x-access-token:$env:TOKEN@github.com/${{ github.repository }}.git" ci-logs-app-build:ci-logs-app-build
+      - name: Upload app
+        if: steps.app.outputs.exists == 'true'
+        uses: actions/upload-artifact@v4
+        with:
+          name: DustBuster-ci-win-x64
+          path: build/DustBuster

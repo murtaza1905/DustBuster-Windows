@@ -1,0 +1,122 @@
+{
+  "schema": 1,
+  "roots": [
+    { "path": "%TEMP%", "label": "Geçici Dosyalar", "category": "temp", "section": "user", "mode": "children" },
+    { "path": "%LOCALAPPDATA%\\CrashDumps", "label": "Çökme Dökümleri", "category": "log", "section": "user", "mode": "self" },
+    { "path": "%LOCALAPPDATA%\\Microsoft\\Windows\\WER\\ReportQueue", "label": "Hata Raporları (kuyruk)", "category": "log", "section": "user", "mode": "self" },
+    { "path": "%LOCALAPPDATA%\\Microsoft\\Windows\\WER\\ReportArchive", "label": "Hata Raporları (arşiv)", "category": "log", "section": "user", "mode": "self" },
+    { "path": "%LOCALAPPDATA%\\Microsoft\\Windows\\WER\\Temp", "label": "Hata Raporları (geçici)", "category": "log", "section": "user", "mode": "self" },
+    { "path": "%LOCALAPPDATA%\\Microsoft\\Windows\\INetCache", "label": "Internet Önbelleği (WinINet)", "category": "cache", "section": "user", "mode": "self" },
+    { "path": "%LOCALAPPDATA%\\Microsoft\\Windows\\Explorer", "label": "Küçük Resim Önbelleği", "category": "cache", "section": "user", "mode": "files", "pattern": "thumbcache_*.db" },
+    { "path": "%LOCALAPPDATA%\\Microsoft\\Windows\\Explorer", "label": "Simge Önbelleği", "category": "cache", "section": "user", "mode": "files", "pattern": "iconcache_*.db" },
+    { "path": "%LOCALAPPDATA%\\D3DSCache", "label": "DirectX Gölgelendirici Önbelleği", "category": "cache", "section": "user", "mode": "self" },
+    { "path": "%LOCALAPPDATA%\\NVIDIA\\DXCache", "label": "NVIDIA DirectX Önbelleği", "category": "cache", "section": "user", "mode": "self" },
+    { "path": "%LOCALAPPDATA%\\NVIDIA\\GLCache", "label": "NVIDIA OpenGL Önbelleği", "category": "cache", "section": "user", "mode": "self" },
+    { "path": "%LOCALAPPDATA%\\NVIDIA Corporation\\NV_Cache", "label": "NVIDIA Önbelleği", "category": "cache", "section": "user", "mode": "self" },
+    { "path": "%LOCALAPPDATA%\\AMD\\DxCache", "label": "AMD DirectX Önbelleği", "category": "cache", "section": "user", "mode": "self" },
+    { "path": "%LOCALAPPDATA%\\AMD\\GLCache", "label": "AMD OpenGL Önbelleği", "category": "cache", "section": "user", "mode": "self" },
+    { "path": "%LOCALAPPDATA%\\AMD\\VkCache", "label": "AMD Vulkan Önbelleği", "category": "cache", "section": "user", "mode": "self" },
+    { "path": "%LOCALAPPDATA%\\Intel\\ShaderCache", "label": "Intel Gölgelendirici Önbelleği", "category": "cache", "section": "user", "mode": "self" },
+    { "path": "%LOCALAPPDATA%\\Microsoft\\Windows\\Caches", "label": "Windows Kabuk Önbelleği", "category": "cache", "section": "user", "mode": "self" },
+    { "path": "%LOCALAPPDATA%\\Packages\\*\\AC\\INetCache", "label": "Uygulama Paketi Internet Önbelleği", "category": "cache", "section": "user", "mode": "self" },
+    { "path": "%LOCALAPPDATA%\\Packages\\*\\AC\\Temp", "label": "Uygulama Paketi Geçici Dosyaları", "category": "temp", "section": "user", "mode": "self" },
+    { "path": "%LOCALAPPDATA%\\Packages\\*\\TempState", "label": "Uygulama Paketi Geçici Durumu", "category": "temp", "section": "user", "mode": "self" },
+    { "path": "%WINDIR%\\Temp", "label": "Windows Geçici Dosyaları", "category": "temp", "section": "system", "mode": "children" },
+    { "path": "%WINDIR%\\SoftwareDistribution\\Download", "label": "Windows Update İndirme Önbelleği", "category": "systemCache", "section": "system", "mode": "self" },
+    { "path": "%WINDIR%\\Minidump", "label": "Sistem Çökme Dökümleri", "category": "log", "section": "system", "mode": "self" },
+    { "path": "%WINDIR%\\LiveKernelReports", "label": "Çekirdek Raporları", "category": "log", "section": "system", "mode": "self" },
+    { "path": "%WINDIR%\\Logs\\WindowsUpdate", "label": "Windows Update Günlükleri", "category": "log", "section": "system", "mode": "self" },
+    { "path": "%PROGRAMDATA%\\Microsoft\\Windows\\WER\\ReportQueue", "label": "Sistem Hata Raporları (kuyruk)", "category": "log", "section": "system", "mode": "self" },
+    { "path": "%PROGRAMDATA%\\Microsoft\\Windows\\WER\\ReportArchive", "label": "Sistem Hata Raporları (arşiv)", "category": "log", "section": "system", "mode": "self" },
+    { "path": "%PROGRAMDATA%\\Microsoft\\Windows\\WER\\Temp", "label": "Sistem Hata Raporları (geçici)", "category": "log", "section": "system", "mode": "self" },
+    { "path": "%PROGRAMDATA%\\NVIDIA Corporation\\NV_Cache", "label": "NVIDIA Sistem Önbelleği", "category": "cache", "section": "system", "mode": "self" }
+  ],
+  "appCaches": {
+    "roots": ["%APPDATA%", "%LOCALAPPDATA%", "%LOCALLOW%"],
+    "maxDepth": 2,
+    "cacheFolders": ["Cache", "Code Cache", "GPUCache", "DawnCache", "DawnGraphiteCache", "DawnWebGPUCache", "GrShaderCache", "ShaderCache", "Service Worker\\ScriptCache", "blob_storage", "Crashpad\\completed", "Crashpad\\pending"],
+    "logFolders": ["logs", "Logs", "CrashDumps", "crash-reports", "Crash Reports"],
+    "skipFolders": ["Microsoft\\Windows", "Packages", "Temp", "Programs", "Microsoft\\Edge", "Google\\Chrome", "Microsoft\\OneDrive", "Microsoft\\Credentials", "Microsoft\\Crypto", "Microsoft\\Protect", "Microsoft\\Vault", "Microsoft\\SystemCertificates", "Microsoft\\TokenBroker"]
+  },
+  "forbiddenRoots": [
+    "%WINDIR%\\System32", "%WINDIR%\\SysWOW64", "%WINDIR%\\WinSxS", "%WINDIR%\\Installer", "%WINDIR%\\servicing",
+    "%PROGRAMFILES%", "%PROGRAMFILES(X86)%", "%USERPROFILE%\\Documents", "%USERPROFILE%\\Pictures", "%USERPROFILE%\\Videos",
+    "%USERPROFILE%\\Music", "%USERPROFILE%\\Desktop", "%USERPROFILE%\\Downloads", "%USERPROFILE%\\OneDrive",
+    "%APPDATA%\\Microsoft\\Credentials", "%APPDATA%\\Microsoft\\Crypto", "%APPDATA%\\Microsoft\\Protect", "%APPDATA%\\Microsoft\\Vault",
+    "%LOCALAPPDATA%\\Microsoft\\Credentials", "%LOCALAPPDATA%\\Microsoft\\Windows\\WebCache", "%LOCALAPPDATA%\\Microsoft\\Windows\\INetCookies"
+  ],
+  "sensitiveKeywords": [
+    "history", "bookmark", "bookmarks", "cookies", "keychain", "account", "accounts", "login", "logindata", "sessions", "autofill",
+    "credential", "credentials", "vault", "wallet", "password", "passwords", "web data", "local storage", "indexeddb", "session storage"
+  ],
+  "vendorFolders": [
+    "Google", "Microsoft", "Adobe", "JetBrains", "Mozilla", "BraveSoftware", "Yandex", "Logitech", "Autodesk",
+    "Epic", "Epic Games", "Unity", "Corsair", "Razer", "Elgato", "Opera Software", "Vivaldi", "Blackmagic Design", "Native Instruments",
+    "Steinberg", "Ableton", "Figma", "Slack", "Zoom", "Dropbox", "Box", "Nextcloud", "Synology", "Parallels", "VMware",
+    "Oracle", "Docker", "Electron", "Avast Software", "Bitdefender", "Kaspersky Lab", "Sophos", "Malwarebytes",
+    "Wacom", "Canon", "HP", "Epson", "Brother", "NVIDIA", "NVIDIA Corporation", "AMD", "Intel", "Valve", "Ubisoft", "EA",
+    "Electronic Arts", "Activision", "Riot Games", "Rockstar Games", "Blizzard Entertainment", "Battle.net", "GOG.com",
+    "Samsung", "Lenovo", "Dell", "ASUS", "Acer", "MSI", "Gigabyte", "Realtek", "Creative", "SteelSeries", "HyperX",
+    "Moonchild Productions", "Programs", "Temp"
+  ],
+  "browsers": {
+    "chromiumProfileCacheFolders": ["Cache", "Code Cache", "GPUCache", "Media Cache", "DawnCache", "DawnGraphiteCache", "DawnWebGPUCache"],
+    "chromiumRootCacheFolders": ["ShaderCache", "GrShaderCache", "GraphiteDawnCache", "DawnWebGPUCache", "DawnGraphiteCache"],
+    "chromiumProfileNames": ["Default", "Guest Profile", "System Profile"],
+    "chromiumProfilePrefixes": ["Profile "],
+    "chromiumUserDataRoots": ["%LOCALAPPDATA%"],
+    "chromiumUserDataFolder": "User Data",
+    "chromiumSplitRoots": [
+      { "profiles": "%APPDATA%\\Opera Software", "caches": "%LOCALAPPDATA%\\Opera Software" }
+    ],
+    "chromiumNames": {
+      "Google\\Chrome": "Google Chrome",
+      "Google\\Chrome Beta": "Google Chrome Beta",
+      "Google\\Chrome Dev": "Google Chrome Dev",
+      "Google\\Chrome SxS": "Google Chrome Canary",
+      "Chromium": "Chromium",
+      "Microsoft\\Edge": "Microsoft Edge",
+      "Microsoft\\Edge Beta": "Microsoft Edge Beta",
+      "Microsoft\\Edge Dev": "Microsoft Edge Dev",
+      "Microsoft\\Edge SxS": "Microsoft Edge Canary",
+      "BraveSoftware\\Brave-Browser": "Brave",
+      "BraveSoftware\\Brave-Browser-Beta": "Brave Beta",
+      "BraveSoftware\\Brave-Browser-Nightly": "Brave Nightly",
+      "Vivaldi": "Vivaldi",
+      "Opera Software\\Opera Stable": "Opera",
+      "Opera Software\\Opera GX Stable": "Opera GX",
+      "Opera Software\\Opera Air Stable": "Opera Air",
+      "Opera Software\\Opera Developer": "Opera Developer",
+      "Opera Software\\Opera Next": "Opera Next",
+      "Yandex\\YandexBrowser": "Yandex Browser",
+      "CocCoc\\Browser": "Cốc Cốc",
+      "Thorium": "Thorium",
+      "CentBrowser": "Cent Browser",
+      "Iridium": "Iridium",
+      "Comodo\\Dragon": "Comodo Dragon",
+      "Epic Privacy Browser": "Epic Privacy Browser",
+      "Sidekick": "Sidekick",
+      "Wavebox": "Wavebox",
+      "Naver\\Naver Whale": "Naver Whale",
+      "Arc": "Arc",
+      "Packages\\TheBrowserCompany.Arc_ttt1ap7aakyb4\\LocalCache\\Local\\Arc": "Arc"
+    },
+    "geckoProfileRoots": [
+      "%LOCALAPPDATA%\\Mozilla\\Firefox\\Profiles",
+      "%LOCALAPPDATA%\\LibreWolf\\Profiles",
+      "%LOCALAPPDATA%\\Waterfox\\Profiles",
+      "%LOCALAPPDATA%\\Moonchild Productions\\Pale Moon\\Profiles",
+      "%LOCALAPPDATA%\\zen\\Profiles",
+      "%LOCALAPPDATA%\\Floorp\\Profiles"
+    ],
+    "geckoCacheFolder": "cache2",
+    "geckoNames": {
+      "Firefox": "Firefox",
+      "LibreWolf": "LibreWolf",
+      "Waterfox": "Waterfox",
+      "Pale Moon": "Pale Moon",
+      "zen": "Zen Browser",
+      "Floorp": "Floorp"
+    }
+  }
+}

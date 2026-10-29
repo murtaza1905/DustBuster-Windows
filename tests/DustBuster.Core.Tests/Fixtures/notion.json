@@ -1,0 +1,79 @@
+{
+  "schema": 1,
+  "name": "Notion — kullanıcı profiline kurulan Electron uygulaması: AppData, kayıt defteri, başlangıç girdisi ve kısayollar",
+  "status": "curated",
+  "notes": "Sentetik vaka; gerçek rapor geldiğinde ağaç ve beklenti güncellenecek. 'Notion Calendar' ayrı uygulamadır, ad benzerliğiyle zayıf listelenir.",
+  "home": "C:\\Users\\test",
+  "identity": {
+    "name": "Notion",
+    "kind": "win32",
+    "publisher": "Notion Labs, Inc.",
+    "installLocation": "%LOCALAPPDATA%\\Programs\\Notion",
+    "executablePath": "%LOCALAPPDATA%\\Programs\\Notion\\Notion.exe",
+    "productName": "Notion",
+    "companyName": "Notion Labs, Inc.",
+    "uninstallKeyPath": "HKCU:\\Software\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\Notion",
+    "uninstallString": "\"%LOCALAPPDATA%\\Programs\\Notion\\Uninstall Notion.exe\" /currentuser",
+    "quietUninstallString": null,
+    "productCode": null,
+    "packageFamilyName": null,
+    "packageFullName": null,
+    "extraIdentifiers": [],
+    "helperExecutables": []
+  },
+  "options": {
+    "includeSystemLocations": false,
+    "includeAggressiveLocations": false,
+    "useDatabase": true
+  },
+  "tree": [
+    "%APPDATA%\\Notion\\",
+    "%APPDATA%\\Notion Calendar\\",
+    "%APPDATA%\\Microsoft\\Windows\\Recent\\notion.lnk",
+    "%APPDATA%\\Microsoft\\Windows\\Start Menu\\Programs\\Notion.lnk",
+    "%LOCALAPPDATA%\\Notion\\",
+    "%LOCALAPPDATA%\\SquirrelTemp\\",
+    "%LOCALAPPDATA%\\Programs\\Notion\\Notion.exe",
+    "%LOCALAPPDATA%\\Programs\\Notion\\resources\\app.asar",
+    "%TEMP%\\notion-installer.exe",
+    "%USERPROFILE%\\Desktop\\Notion.lnk",
+    "HKCU:\\Software\\Notion\\",
+    "HKCU:\\Software\\Classes\\notion\\",
+    "HKCU:\\Software\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\Notion\\"
+  ],
+  "emptyDirs": [],
+  "reparsePoints": [],
+  "shortcutTargets": {
+    "%APPDATA%\\Microsoft\\Windows\\Start Menu\\Programs\\Notion.lnk": "%LOCALAPPDATA%\\Programs\\Notion\\Notion.exe",
+    "%USERPROFILE%\\Desktop\\Notion.lnk": "%LOCALAPPDATA%\\Programs\\Notion\\Notion.exe",
+    "%APPDATA%\\Microsoft\\Windows\\Recent\\notion.lnk": "%USERPROFILE%\\Documents\\notion-export.zip"
+  },
+  "runCommands": {
+    "HKCU:\\Software\\Microsoft\\Windows\\CurrentVersion\\Run\\Notion": "\"%LOCALAPPDATA%\\Programs\\Notion\\Notion.exe\" --hidden"
+  },
+  "taskExecutables": null,
+  "serviceExecutables": null,
+  "expect": {
+    "strong": [
+      "%APPDATA%\\Notion",
+      "%APPDATA%\\Microsoft\\Windows\\Start Menu\\Programs\\Notion.lnk",
+      "%LOCALAPPDATA%\\Notion",
+      "%USERPROFILE%\\Desktop\\Notion.lnk",
+      "HKCU:\\Software\\Notion",
+      "HKCU:\\Software\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\Notion",
+      "HKCU:\\Software\\Microsoft\\Windows\\CurrentVersion\\Run\\Notion"
+    ],
+    "weak": [
+      "%APPDATA%\\Notion Calendar",
+      "%TEMP%\\notion-installer.exe"
+    ],
+    "absent": [
+      "%APPDATA%\\Microsoft\\Windows\\Recent\\notion.lnk",
+      "%LOCALAPPDATA%\\SquirrelTemp",
+      "%LOCALAPPDATA%\\Programs",
+      "HKCU:\\Software\\Classes\\notion",
+      "HKCU:\\Software\\Classes"
+    ],
+    "databaseIds": []
+  }
+}

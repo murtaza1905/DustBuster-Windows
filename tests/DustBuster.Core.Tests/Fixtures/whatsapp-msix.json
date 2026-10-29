@@ -1,0 +1,63 @@
+{
+  "schema": 1,
+  "name": "WhatsApp (MSIX) — paket klasörü PackageFamilyName ile kesin, WindowsApps kurulum klasörü listelenmez, Microsoft paketleri dokunulmaz",
+  "status": "curated",
+  "notes": "Sentetik vaka. MSIX uygulamaları paket yöneticisiyle kaldırılır; kalıntı taraması yalnızca Packages, AppData ve kayıt defterine bakar.",
+  "home": "C:\\Users\\test",
+  "identity": {
+    "name": "WhatsApp",
+    "kind": "msix",
+    "publisher": "WhatsApp Inc.",
+    "installLocation": "%PROGRAMFILES%\\WindowsApps\\5319275A.WhatsAppDesktop_2.2402.5.0_x64__cv1g1gvanyjgm",
+    "executablePath": "%PROGRAMFILES%\\WindowsApps\\5319275A.WhatsAppDesktop_2.2402.5.0_x64__cv1g1gvanyjgm\\WhatsApp.exe",
+    "productName": "WhatsApp",
+    "companyName": "WhatsApp Inc.",
+    "uninstallKeyPath": null,
+    "uninstallString": null,
+    "quietUninstallString": null,
+    "productCode": null,
+    "packageFamilyName": "5319275A.WhatsAppDesktop_cv1g1gvanyjgm",
+    "packageFullName": "5319275A.WhatsAppDesktop_2.2402.5.0_x64__cv1g1gvanyjgm",
+    "extraIdentifiers": [],
+    "helperExecutables": []
+  },
+  "options": {
+    "includeSystemLocations": false,
+    "includeAggressiveLocations": false,
+    "useDatabase": true
+  },
+  "tree": [
+    "%LOCALAPPDATA%\\Packages\\5319275A.WhatsAppDesktop_cv1g1gvanyjgm\\LocalCache\\",
+    "%LOCALAPPDATA%\\Packages\\5319275A.WhatsAppDesktop_cv1g1gvanyjgm\\LocalState\\",
+    "%LOCALAPPDATA%\\Packages\\Microsoft.WindowsStore_8wekyb3d8bbwe\\LocalCache\\",
+    "%LOCALAPPDATA%\\WhatsApp\\",
+    "%APPDATA%\\WhatsApp\\",
+    "%APPDATA%\\WhatsApp Desktop\\",
+    "%PROGRAMFILES%\\WindowsApps\\5319275A.WhatsAppDesktop_2.2402.5.0_x64__cv1g1gvanyjgm\\WhatsApp.exe",
+    "HKCU:\\Software\\Classes\\Local Settings\\Software\\Microsoft\\Windows\\CurrentVersion\\AppModel\\Repository\\Families\\5319275A.WhatsAppDesktop_cv1g1gvanyjgm\\"
+  ],
+  "emptyDirs": [],
+  "reparsePoints": [],
+  "shortcutTargets": null,
+  "runCommands": null,
+  "taskExecutables": null,
+  "serviceExecutables": null,
+  "expect": {
+    "strong": [
+      "%LOCALAPPDATA%\\Packages\\5319275A.WhatsAppDesktop_cv1g1gvanyjgm",
+      "%LOCALAPPDATA%\\WhatsApp",
+      "%APPDATA%\\WhatsApp"
+    ],
+    "weak": [
+      "%APPDATA%\\WhatsApp Desktop"
+    ],
+    "absent": [
+      "%LOCALAPPDATA%\\Packages\\Microsoft.WindowsStore_8wekyb3d8bbwe",
+      "%LOCALAPPDATA%\\Packages",
+      "%PROGRAMFILES%\\WindowsApps\\5319275A.WhatsAppDesktop_2.2402.5.0_x64__cv1g1gvanyjgm",
+      "%PROGRAMFILES%\\WindowsApps",
+      "HKCU:\\Software\\Classes\\Local Settings\\Software\\Microsoft\\Windows\\CurrentVersion\\AppModel\\Repository\\Families\\5319275A.WhatsAppDesktop_cv1g1gvanyjgm"
+    ],
+    "databaseIds": []
+  }
+}

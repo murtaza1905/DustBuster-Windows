@@ -1,0 +1,74 @@
+{
+  "schema": 1,
+  "name": "VLC media player — Program Files kurulumu, sistem taraması kapalı: kısa ad (vlc) birebir klasör aramasıyla bulunur, satıcı klasörü (VideoLAN) listelenmez",
+  "status": "curated",
+  "notes": "Sentetik vaka. Başlat Menüsü'ndeki VideoLAN klasörünün tüm kısayolları kurulum klasörüne gittiği için klasörün tamamı güçlü listelenir.",
+  "home": "C:\\Users\\test",
+  "identity": {
+    "name": "VLC media player",
+    "kind": "win32",
+    "publisher": "VideoLAN",
+    "installLocation": "%PROGRAMFILES%\\VideoLAN\\VLC",
+    "executablePath": "%PROGRAMFILES%\\VideoLAN\\VLC\\vlc.exe",
+    "productName": "VLC media player",
+    "companyName": "VideoLAN",
+    "uninstallKeyPath": "HKLM:\\Software\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\VLC media player",
+    "uninstallString": "%PROGRAMFILES%\\VideoLAN\\VLC\\uninstall.exe",
+    "quietUninstallString": null,
+    "productCode": null,
+    "packageFamilyName": null,
+    "packageFullName": null,
+    "extraIdentifiers": [],
+    "helperExecutables": []
+  },
+  "options": {
+    "includeSystemLocations": false,
+    "includeAggressiveLocations": false,
+    "useDatabase": true
+  },
+  "tree": [
+    "%APPDATA%\\vlc\\",
+    "%APPDATA%\\Microsoft\\Windows\\Recent\\vlc.lnk",
+    "%PROGRAMFILES%\\VideoLAN\\VLC\\vlc.exe",
+    "%PROGRAMFILES%\\VideoLAN\\VLC\\uninstall.exe",
+    "%PROGRAMFILES%\\VideoLAN\\VLC\\NEWS.txt",
+    "%PROGRAMFILES%\\VideoLAN\\VLC\\Documentation.url",
+    "%PROGRAMDATA%\\Microsoft\\Windows\\Start Menu\\Programs\\VideoLAN\\VLC media player.lnk",
+    "%PROGRAMDATA%\\Microsoft\\Windows\\Start Menu\\Programs\\VideoLAN\\Documentation.lnk",
+    "%PROGRAMDATA%\\Microsoft\\Windows\\Start Menu\\Programs\\VideoLAN\\Release Notes.lnk",
+    "%PROGRAMDATA%\\Microsoft\\Windows\\Start Menu\\Programs\\VideoLAN\\VideoLAN Website.url",
+    "%USERPROFILE%\\Desktop\\VLC media player.lnk",
+    "HKCU:\\Software\\VideoLAN\\VLC\\",
+    "HKCU:\\Software\\VideoLAN\\Other\\",
+    "HKLM:\\Software\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\VLC media player\\"
+  ],
+  "emptyDirs": [],
+  "reparsePoints": [],
+  "shortcutTargets": {
+    "%PROGRAMDATA%\\Microsoft\\Windows\\Start Menu\\Programs\\VideoLAN\\VLC media player.lnk": "%PROGRAMFILES%\\VideoLAN\\VLC\\vlc.exe",
+    "%PROGRAMDATA%\\Microsoft\\Windows\\Start Menu\\Programs\\VideoLAN\\Documentation.lnk": "%PROGRAMFILES%\\VideoLAN\\VLC\\Documentation.url",
+    "%PROGRAMDATA%\\Microsoft\\Windows\\Start Menu\\Programs\\VideoLAN\\Release Notes.lnk": "%PROGRAMFILES%\\VideoLAN\\VLC\\NEWS.txt",
+    "%USERPROFILE%\\Desktop\\VLC media player.lnk": "%PROGRAMFILES%\\VideoLAN\\VLC\\vlc.exe",
+    "%APPDATA%\\Microsoft\\Windows\\Recent\\vlc.lnk": "%USERPROFILE%\\Videos\\film.mkv"
+  },
+  "runCommands": null,
+  "taskExecutables": null,
+  "serviceExecutables": null,
+  "expect": {
+    "strong": [
+      "%APPDATA%\\vlc",
+      "%PROGRAMDATA%\\Microsoft\\Windows\\Start Menu\\Programs\\VideoLAN",
+      "%USERPROFILE%\\Desktop\\VLC media player.lnk",
+      "HKCU:\\Software\\VideoLAN\\VLC"
+    ],
+    "weak": [],
+    "absent": [
+      "%APPDATA%\\Microsoft\\Windows\\Recent\\vlc.lnk",
+      "%PROGRAMDATA%\\Microsoft\\Windows\\Start Menu\\Programs\\VideoLAN\\VLC media player.lnk",
+      "HKCU:\\Software\\VideoLAN",
+      "HKCU:\\Software\\VideoLAN\\Other",
+      "HKLM:\\Software\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\VLC media player"
+    ],
+    "databaseIds": []
+  }
+}
