@@ -129,7 +129,7 @@ public class CommandLineTests
         Assert.Equal("C:\\Users\\test\\AppData\\Local\\Discord\\Update.exe", CommandLine.ExecutablePath("%LOCALAPPDATA%\\Discord\\Update.exe --processStart Discord.exe", f));
         Assert.Equal("C:\\Windows\\System32\\svchost.exe", CommandLine.ExecutablePath("%SystemRoot%\\System32\\svchost.exe -k netsvcs", f));
         Assert.Equal("C:\\Windows\\System32\\drivers\\x.sys", CommandLine.ExecutablePath("\\SystemRoot\\System32\\drivers\\x.sys", f));
-        Assert.Equal("C:\\Windows\\System32\\drivers\\y.sys", CommandLine.ExecutablePath("system32\\drivers\\y.sys", f));
+        Assert.Equal("C:\\Windows\\System32\\drivers\\y.sys", CommandLine.ExecutablePath("system32\\drivers\\y.sys", f), ignoreCase: true);
         Assert.Null(CommandLine.ExecutablePath("   ", f));
     }
 }

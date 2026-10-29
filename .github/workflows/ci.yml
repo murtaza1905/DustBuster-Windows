@@ -17,8 +17,8 @@ jobs:
     name: Core tests (Windows)
     runs-on: windows-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-dotnet@v4
+      - uses: actions/checkout@v5
+      - uses: actions/setup-dotnet@v5
         with:
           dotnet-version: 8.0.x
       - name: Restore
@@ -63,7 +63,7 @@ jobs:
           git push -q -f "https://x-access-token:$env:TOKEN@github.com/${{ github.repository }}.git" ci-logs-core-tests:ci-logs-core-tests
       - name: Upload test results
         if: always()
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v5
         with:
           name: core-test-results-windows
           path: |
@@ -76,8 +76,8 @@ jobs:
     name: Core tests (Linux, quick check)
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-dotnet@v4
+      - uses: actions/checkout@v5
+      - uses: actions/setup-dotnet@v5
         with:
           dotnet-version: 8.0.x
       - name: Build
@@ -105,8 +105,8 @@ jobs:
     runs-on: windows-latest
     needs: core-tests-windows
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-dotnet@v4
+      - uses: actions/checkout@v5
+      - uses: actions/setup-dotnet@v5
         with:
           dotnet-version: 8.0.x
       - name: Check for the application project
@@ -143,7 +143,7 @@ jobs:
           git push -q -f "https://x-access-token:$env:TOKEN@github.com/${{ github.repository }}.git" ci-logs-app-build:ci-logs-app-build
       - name: Upload app
         if: steps.app.outputs.exists == 'true'
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v5
         with:
           name: DustBuster-ci-win-x64
           path: build/DustBuster
